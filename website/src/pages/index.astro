@@ -1,0 +1,817 @@
+---
+import Layout from '../layouts/Layout.astro';
+const base = import.meta.env.BASE_URL;
+---
+
+<Layout title="节知 Folkday - 传统节日日历">
+  <!-- Noise overlay -->
+  <div class="noise-overlay" aria-hidden="true"></div>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero">
+    <div class="hero-inner">
+      <div class="hero-text animate-on-scroll">
+        <div class="hero-brand">
+          <img src={`${base}/images/folkday_icon.png`} alt="Folkday 节知" class="hero-icon" width="80" height="80" />
+          <div class="hero-titles">
+            <h1 class="hero-title-cn">节知</h1>
+            <span class="hero-title-en">Folkday</span>
+          </div>
+        </div>
+        <p class="hero-slogan">让年轻人不再错过<br/>家乡的每一个传统节日</p>
+        <p class="hero-slogan-en">Never miss a hometown festival</p>
+        <div class="hero-stats">
+          <span class="stat">196 <small>个节日</small></span>
+          <span class="stat-divider"></span>
+          <span class="stat">4 <small>大文化地区</small></span>
+          <span class="stat-divider"></span>
+          <span class="stat-text">双历显示</span>
+        </div>
+        <a href="https://github.com/lum1104/Folkday/releases/latest" class="cta-button" target="_blank" rel="noopener noreferrer">
+          <svg class="cta-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+          下载 APK
+        </a>
+      </div>
+      <div class="hero-phone animate-on-scroll">
+        <div class="phone-frame phone-float">
+          <div class="phone-notch"></div>
+          <img src={`${base}/images/screenshot-calendar.png`} alt="节知日历界面" class="phone-screen" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Decorative divider -->
+  <div class="section-divider">
+    <span class="divider-line divider-chaoshan"></span>
+    <span class="divider-line divider-minnan"></span>
+    <span class="divider-line divider-guangfu"></span>
+    <span class="divider-line divider-kejia"></span>
+  </div>
+
+  <!-- ===== FEATURES ===== -->
+  <section class="features">
+    <div class="section-header animate-on-scroll">
+      <h2 class="section-title">功能亮点</h2>
+      <span class="section-subtitle">Features</span>
+    </div>
+
+    <div class="feature-card animate-on-scroll" data-accent="chaoshan">
+      <div class="feature-text">
+        <div class="feature-accent-line" style="background: var(--color-chaoshan);"></div>
+        <h3 class="feature-name">双历显示</h3>
+        <span class="feature-name-en">Dual Calendar</span>
+        <p class="feature-desc">农历/公历同步显示，节气标注一目了然</p>
+        <p class="feature-desc-en">Synchronized Lunar & Gregorian calendar with solar terms</p>
+      </div>
+      <div class="feature-phone">
+        <div class="phone-frame phone-frame-sm">
+          <div class="phone-notch"></div>
+          <img src={`${base}/images/screenshot-calendar.png`} alt="双历显示" class="phone-screen" />
+        </div>
+      </div>
+    </div>
+
+    <div class="feature-card feature-card--reverse animate-on-scroll" data-accent="minnan">
+      <div class="feature-text">
+        <div class="feature-accent-line" style="background: var(--color-minnan);"></div>
+        <h3 class="feature-name">四大文化地区</h3>
+        <span class="feature-name-en">Four Regions</span>
+        <p class="feature-desc">潮汕、闽南、广府、客家，196个传统节日全覆盖</p>
+        <p class="feature-desc-en">Chaoshan, Minnan, Guangfu, Kejia — 196 festivals covered</p>
+      </div>
+      <div class="feature-phone">
+        <div class="phone-frame phone-frame-sm">
+          <div class="phone-notch"></div>
+          <img src={`${base}/images/screenshot-regions.png`} alt="四大文化地区" class="phone-screen" />
+        </div>
+      </div>
+    </div>
+
+    <div class="feature-card animate-on-scroll" data-accent="guangfu">
+      <div class="feature-text">
+        <div class="feature-accent-line" style="background: var(--color-guangfu);"></div>
+        <h3 class="feature-name">节日详情与民俗</h3>
+        <span class="feature-name-en">Festival Details</span>
+        <p class="feature-desc">详尽的节日来源、民俗习惯和祭祀准备清单</p>
+        <p class="feature-desc-en">Rich festival origins, customs, and preparation guides</p>
+      </div>
+      <div class="feature-phone">
+        <div class="phone-frame phone-frame-sm">
+          <div class="phone-notch"></div>
+          <img src={`${base}/images/screenshot-detail.png`} alt="节日详情" class="phone-screen" />
+        </div>
+      </div>
+    </div>
+
+    <div class="feature-card feature-card--reverse animate-on-scroll" data-accent="kejia">
+      <div class="feature-text">
+        <div class="feature-accent-line" style="background: var(--color-kejia);"></div>
+        <h3 class="feature-name">智能提醒</h3>
+        <span class="feature-name-en">Smart Reminders</span>
+        <p class="feature-desc">按节日重要程度分级提醒，再也不会错过</p>
+        <p class="feature-desc-en">Tiered reminders by importance — never miss a festival</p>
+      </div>
+      <div class="feature-phone">
+        <div class="phone-frame phone-frame-sm">
+          <div class="phone-notch"></div>
+          <img src={`${base}/images/screenshot-reminders.png`} alt="智能提醒" class="phone-screen" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Decorative divider -->
+  <div class="section-divider">
+    <span class="divider-line divider-kejia"></span>
+    <span class="divider-line divider-guangfu"></span>
+    <span class="divider-line divider-minnan"></span>
+    <span class="divider-line divider-chaoshan"></span>
+  </div>
+
+  <!-- ===== REGIONS ===== -->
+  <section class="regions">
+    <div class="section-header animate-on-scroll">
+      <h2 class="section-title">四大文化地区</h2>
+      <span class="section-subtitle">Regional Cultures</span>
+    </div>
+    <div class="regions-grid animate-on-scroll">
+      <div class="region-card" style="background: var(--color-chaoshan);">
+        <span class="region-count">41</span>
+        <h3 class="region-name">潮汕</h3>
+        <span class="region-name-en">Chaoshan</span>
+        <p class="region-festivals">41 个传统节日</p>
+      </div>
+      <div class="region-card" style="background: var(--color-minnan);">
+        <span class="region-count">66</span>
+        <h3 class="region-name">闽南</h3>
+        <span class="region-name-en">Minnan</span>
+        <p class="region-festivals">66 个传统节日</p>
+      </div>
+      <div class="region-card" style="background: var(--color-guangfu);">
+        <span class="region-count">44</span>
+        <h3 class="region-name">广府</h3>
+        <span class="region-name-en">Guangfu</span>
+        <p class="region-festivals">44 个传统节日</p>
+      </div>
+      <div class="region-card" style="background: var(--color-kejia);">
+        <span class="region-count">45</span>
+        <h3 class="region-name">客家</h3>
+        <span class="region-name-en">Kejia</span>
+        <p class="region-festivals">45 个传统节日</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== DOWNLOAD CTA ===== -->
+  <section class="download-cta">
+    <div class="download-cta-inner animate-on-scroll">
+      <h2 class="download-title">开始探索你的家乡节日</h2>
+      <p class="download-subtitle">Start exploring your hometown festivals</p>
+      <a href="https://github.com/lum1104/Folkday/releases/latest" class="cta-button cta-button--large" target="_blank" rel="noopener noreferrer">
+        <svg class="cta-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+        下载 APK
+      </a>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <a href="https://github.com/lum1104/Folkday" class="footer-github" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+        <svg viewBox="0 0 24 24" fill="currentColor" width="24" height="24" aria-hidden="true"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+      </a>
+      <div class="footer-meta">
+        <span>AGPL-3.0 License</span>
+        <span class="footer-sep">&middot;</span>
+        <span>&copy; 2025–2026 Folkday 节知</span>
+      </div>
+    </div>
+  </footer>
+</Layout>
+
+<style>
+  /* ========================
+     NOISE OVERLAY
+     ======================== */
+  .noise-overlay {
+    position: fixed;
+    inset: 0;
+    z-index: 9999;
+    pointer-events: none;
+    opacity: 0.03;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E");
+    background-repeat: repeat;
+    background-size: 256px 256px;
+  }
+
+  /* ========================
+     SECTION DIVIDER
+     ======================== */
+  .section-divider {
+    display: flex;
+    gap: 0;
+    height: 3px;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 2rem;
+  }
+
+  .divider-line {
+    flex: 1;
+    height: 100%;
+    display: block;
+  }
+
+  .divider-chaoshan { background: var(--color-chaoshan); }
+  .divider-minnan { background: var(--color-minnan); }
+  .divider-guangfu { background: var(--color-guangfu); }
+  .divider-kejia { background: var(--color-kejia); }
+
+  /* ========================
+     SCROLL ANIMATION
+     ======================== */
+  .animate-on-scroll {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.8s cubic-bezier(0.22, 1, 0.36, 1),
+                transform 0.8s cubic-bezier(0.22, 1, 0.36, 1);
+  }
+
+  .animate-on-scroll.is-visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  /* ========================
+     PHONE FRAME
+     ======================== */
+  .phone-frame {
+    position: relative;
+    width: 260px;
+    max-width: 100%;
+    border: 3px solid #1a1a1a;
+    border-radius: 32px;
+    overflow: hidden;
+    background: #000;
+    box-shadow:
+      0 25px 60px rgba(0, 0, 0, 0.18),
+      0 8px 20px rgba(0, 0, 0, 0.1);
+  }
+
+  .phone-notch {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 22px;
+    background: #1a1a1a;
+    border-radius: 0 0 16px 16px;
+    z-index: 2;
+  }
+
+  .phone-screen {
+    display: block;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 368 / 800;
+  }
+
+  .phone-frame-sm {
+    width: 240px;
+  }
+
+  /* ========================
+     FLOAT ANIMATION
+     ======================== */
+  @keyframes phone-float {
+    0%, 100% { transform: translateY(0) rotate(3deg); }
+    50% { transform: translateY(-12px) rotate(3deg); }
+  }
+
+  .phone-float {
+    animation: phone-float 5s ease-in-out infinite;
+    transform: rotate(3deg);
+  }
+
+  /* ========================
+     HERO
+     ======================== */
+  .hero {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 6rem 2rem 4rem;
+    position: relative;
+    overflow: hidden;
+    background:
+      radial-gradient(ellipse at 10% 80%, rgba(192, 57, 43, 0.06) 0%, transparent 50%),
+      radial-gradient(ellipse at 90% 20%, rgba(39, 130, 107, 0.06) 0%, transparent 50%),
+      radial-gradient(ellipse at 50% 50%, rgba(212, 160, 23, 0.04) 0%, transparent 60%);
+  }
+
+  .hero-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+  }
+
+  .hero-text {
+    text-align: center;
+  }
+
+  .hero-brand {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  .hero-icon {
+    width: 80px;
+    height: 80px;
+    border-radius: 20px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  }
+
+  .hero-titles {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .hero-title-cn {
+    font-family: var(--font-cn-serif);
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 1.1;
+    letter-spacing: 0.05em;
+  }
+
+  .hero-title-en {
+    font-family: var(--font-en);
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--color-text-secondary);
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+  }
+
+  .hero-slogan {
+    font-family: var(--font-cn-serif);
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 1.6;
+    margin-bottom: 0.5rem;
+    color: var(--color-text);
+  }
+
+  .hero-slogan-en {
+    font-family: var(--font-en);
+    font-size: 1rem;
+    color: var(--color-text-secondary);
+    margin-bottom: 2rem;
+    letter-spacing: 0.02em;
+  }
+
+  .hero-stats {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 2.5rem;
+    flex-wrap: wrap;
+  }
+
+  .stat {
+    font-family: var(--font-en);
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--color-text);
+  }
+
+  .stat small {
+    font-family: var(--font-cn);
+    font-size: 0.85rem;
+    font-weight: 400;
+    color: var(--color-text-secondary);
+  }
+
+  .stat-divider {
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: var(--color-text-secondary);
+  }
+
+  .stat-text {
+    font-size: 0.95rem;
+    color: var(--color-text-secondary);
+  }
+
+  /* CTA Button */
+  .cta-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.9rem 2rem;
+    background: var(--color-text);
+    color: #fff;
+    font-family: var(--font-cn);
+    font-size: 1rem;
+    font-weight: 700;
+    border-radius: 12px;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+  }
+
+  .cta-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+  }
+
+  .cta-button--large {
+    padding: 1.1rem 2.5rem;
+    font-size: 1.1rem;
+    border-radius: 14px;
+  }
+
+  .cta-icon {
+    width: 20px;
+    height: 20px;
+  }
+
+  .hero-phone {
+    display: flex;
+    justify-content: center;
+  }
+
+  /* ========================
+     SECTION HEADER
+     ======================== */
+  .section-header {
+    text-align: center;
+    margin-bottom: 4rem;
+  }
+
+  .section-title {
+    font-family: var(--font-cn-serif);
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 0.25rem;
+  }
+
+  .section-subtitle {
+    font-family: var(--font-en);
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--color-text-secondary);
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+  }
+
+  /* ========================
+     FEATURES
+     ======================== */
+  .features {
+    padding: 5rem 2rem;
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+
+  .feature-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 4rem;
+    text-align: center;
+  }
+
+  .feature-text {
+    max-width: 420px;
+  }
+
+  .feature-accent-line {
+    width: 40px;
+    height: 3px;
+    border-radius: 2px;
+    margin: 0 auto 1.25rem;
+  }
+
+  .feature-name {
+    font-family: var(--font-cn-serif);
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 0.15rem;
+  }
+
+  .feature-name-en {
+    font-family: var(--font-en);
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--color-text-secondary);
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: 1rem;
+  }
+
+  .feature-desc {
+    font-size: 1rem;
+    line-height: 1.7;
+    color: var(--color-text);
+    margin-bottom: 0.25rem;
+  }
+
+  .feature-desc-en {
+    font-family: var(--font-en);
+    font-size: 0.85rem;
+    color: var(--color-text-secondary);
+    line-height: 1.5;
+  }
+
+  .feature-phone {
+    display: flex;
+    justify-content: center;
+  }
+
+  /* ========================
+     REGIONS
+     ======================== */
+  .regions {
+    padding: 5rem 2rem;
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+
+  .regions-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+  }
+
+  .region-card {
+    position: relative;
+    color: #fff;
+    border-radius: 16px;
+    padding: 2rem 1.5rem;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    cursor: default;
+  }
+
+  .region-card:hover {
+    transform: scale(1.03);
+  }
+
+  .region-count {
+    font-family: var(--font-en);
+    font-size: 5rem;
+    font-weight: 700;
+    line-height: 1;
+    opacity: 0.15;
+    position: absolute;
+    top: 0.5rem;
+    right: 1rem;
+  }
+
+  .region-name {
+    font-family: var(--font-cn-serif);
+    font-size: 1.75rem;
+    font-weight: 700;
+    margin-bottom: 0.1rem;
+  }
+
+  .region-name-en {
+    font-family: var(--font-en);
+    font-size: 0.8rem;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    opacity: 0.8;
+    display: block;
+    margin-bottom: 0.75rem;
+  }
+
+  .region-festivals {
+    font-size: 0.9rem;
+    opacity: 0.9;
+  }
+
+  /* ========================
+     DOWNLOAD CTA
+     ======================== */
+  .download-cta {
+    padding: 5rem 2rem;
+    background:
+      radial-gradient(ellipse at 30% 50%, rgba(230, 126, 34, 0.06) 0%, transparent 50%),
+      radial-gradient(ellipse at 70% 50%, rgba(39, 130, 107, 0.06) 0%, transparent 50%);
+  }
+
+  .download-cta-inner {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .download-title {
+    font-family: var(--font-cn-serif);
+    font-size: 1.75rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+  }
+
+  .download-subtitle {
+    font-family: var(--font-en);
+    font-size: 1rem;
+    color: var(--color-text-secondary);
+    margin-bottom: 2rem;
+  }
+
+  /* ========================
+     FOOTER
+     ======================== */
+  .site-footer {
+    padding: 2.5rem 2rem;
+    border-top: 1px solid rgba(0, 0, 0, 0.06);
+  }
+
+  .footer-inner {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .footer-github svg {
+    width: 24px;
+    height: 24px;
+    color: var(--color-text-secondary);
+    transition: color 0.2s ease;
+  }
+
+  .footer-github:hover svg {
+    color: var(--color-text);
+  }
+
+  .footer-meta {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.8rem;
+    color: var(--color-text-secondary);
+    font-family: var(--font-en);
+  }
+
+  .footer-sep {
+    opacity: 0.4;
+  }
+
+  /* ========================
+     TABLET (768px+)
+     ======================== */
+  @media (min-width: 768px) {
+    .hero-title-cn {
+      font-size: 3.5rem;
+    }
+
+    .hero-slogan {
+      font-size: 1.75rem;
+    }
+
+    .section-title {
+      font-size: 2.25rem;
+    }
+
+    .regions-grid {
+      grid-template-columns: 1fr 1fr;
+    }
+
+    .feature-card {
+      flex-direction: row;
+      justify-content: space-between;
+      text-align: left;
+      gap: 3rem;
+    }
+
+    .feature-card--reverse {
+      flex-direction: row-reverse;
+    }
+
+    .feature-accent-line {
+      margin: 0 0 1.25rem;
+    }
+
+    .phone-frame-sm {
+      width: 260px;
+    }
+
+    .download-title {
+      font-size: 2rem;
+    }
+  }
+
+  /* ========================
+     DESKTOP (1024px+)
+     ======================== */
+  @media (min-width: 1024px) {
+    .hero-inner {
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      gap: 4rem;
+    }
+
+    .hero-text {
+      text-align: left;
+      flex: 1;
+      max-width: 520px;
+    }
+
+    .hero-brand {
+      justify-content: flex-start;
+    }
+
+    .hero-stats {
+      justify-content: flex-start;
+    }
+
+    .hero-phone {
+      flex-shrink: 0;
+    }
+
+    .hero-title-cn {
+      font-size: 4rem;
+    }
+
+    .hero-slogan {
+      font-size: 2rem;
+    }
+
+    .phone-frame {
+      width: 280px;
+    }
+
+    .phone-frame-sm {
+      width: 280px;
+    }
+
+    .feature-card {
+      gap: 8rem;
+    }
+
+    .feature-name {
+      font-size: 1.75rem;
+    }
+
+    .regions-grid {
+      grid-template-columns: repeat(4, 1fr);
+    }
+
+    .section-title {
+      font-size: 2.5rem;
+    }
+
+    .download-title {
+      font-size: 2.25rem;
+    }
+  }
+</style>
+
+<script>
+  // Scroll-triggered animations
+  const observer = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('is-visible');
+
+          // Stagger children with .stagger class
+          const children = entry.target.querySelectorAll('.stagger');
+          children.forEach((child, i) => {
+            (child as HTMLElement).style.transitionDelay = `${i * 100}ms`;
+            child.classList.add('is-visible');
+          });
+
+          observer.unobserve(entry.target);
+        }
+      });
+    },
+    { threshold: 0.1, rootMargin: '0px 0px -40px 0px' }
+  );
+
+  document.querySelectorAll('.animate-on-scroll').forEach((el) => {
+    observer.observe(el);
+  });
+</script>

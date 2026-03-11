@@ -98,5 +98,9 @@ yarn-error.log
 # Turborepo
 .turbo/
 
+# Website (Astro build artifacts)
+website/dist/
+website/.astro/
+
 # Misc
 .claude/
