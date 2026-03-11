@@ -8,3 +8,32 @@
 #   http://developer.android.com/guide/developing/tools/proguard.html
 
 # Add any project specific keep options here:
+
+# React Native core
+-keep class com.facebook.react.** { *; }
+-keep class com.facebook.hermes.** { *; }
+-keep class com.facebook.jni.** { *; }
+
+# Hermes engine unicode
+-keep class com.facebook.hermes.unicode.** { *; }
+
+# react-native-push-notification
+-keep class com.dieam.reactnativepushnotification.** { *; }
+
+# AsyncStorage
+-keep class com.reactnativecommunity.asyncstorage.** { *; }
+
+# react-native-vector-icons
+-keep class com.oblador.vectoricons.** { *; }
+
+# react-native-gesture-handler
+-keep class com.swmansion.gesturehandler.** { *; }
+
+# react-native-screens
+-keep class com.swmansion.rnscreens.** { *; }
+
+# Standard React Native ProGuard annotations
+-keep,allowobfuscation @interface com.facebook.proguard.annotations.DoNotStrip
+-keep,allowobfuscation @interface com.facebook.proguard.annotations.KeepGettersAndSetters
+-keep @com.facebook.proguard.annotations.DoNotStrip class *
+-keepclassmembers class * { @com.facebook.proguard.annotations.DoNotStrip *; }

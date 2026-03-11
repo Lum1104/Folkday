@@ -85,7 +85,23 @@ export function AppProvider({ children }: { children: ReactNode }) {
       try {
         const stored = await AsyncStorage.getItem(STORAGE_KEY);
         if (stored) {
-          dispatch({ type: 'SET_PREFERENCES', payload: JSON.parse(stored) });
+          const parsed = JSON.parse(stored);
+          // Validate shape: merge with defaults and check critical fields
+          const merged = {
+            ...DEFAULT_PREFERENCES,
+            ...parsed,
+            reminderDays: { ...DEFAULT_PREFERENCES.reminderDays, ...(parsed.reminderDays || {}) },
+          };
+          const isValid =
+            Array.isArray(merged.selectedRegions) &&
+            typeof merged.reminderEnabled === 'boolean' &&
+            typeof merged.reminderDays === 'object' &&
+            merged.reminderDays !== null &&
+            typeof merged.reminderTime === 'string';
+          dispatch({
+            type: 'SET_PREFERENCES',
+            payload: isValid ? merged : DEFAULT_PREFERENCES,
+          });
         } else {
           dispatch({ type: 'SET_LOADING', payload: false });
         }
@@ -97,7 +113,13 @@ export function AppProvider({ children }: { children: ReactNode }) {
 
   useEffect(() => {
     if (!state.isLoading) {
-      AsyncStorage.setItem(STORAGE_KEY, JSON.stringify(state.preferences));
+      try {
+        AsyncStorage.setItem(STORAGE_KEY, JSON.stringify(state.preferences)).catch(
+          (error: unknown) => console.error('Failed to persist preferences:', error)
+        );
+      } catch (error) {
+        console.error('Failed to persist preferences:', error);
+      }
     }
   }, [state.preferences, state.isLoading]);
 
