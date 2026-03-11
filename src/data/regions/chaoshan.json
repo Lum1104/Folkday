@@ -1,0 +1,1721 @@
+[
+  {
+    "id": "chaoshan-laba",
+    "name": "腊八节",
+    "region": "chaoshan",
+    "calendarType": "lunar",
+    "date": {
+      "month": 12,
+      "day": 8
+    },
+    "importance": "low",
+    "customs": [
+      {
+        "title": "煮腊八粥",
+        "description": "用杂粮煮粥，纪念释迦牟尼成道日",
+        "preparations": [
+          "糯米",
+          "红豆",
+          "莲子",
+          "桂圆",
+          "花生",
+          "红枣等杂粮"
+        ]
+      },
+      {
+        "title": "祭祖",
+        "description": "部分家庭会在此日祭祖",
+        "preparations": [
+          "香烛",
+          "纸钱"
+        ]
+      }
+    ],
+    "description": "源自古代腊祭传统，纪念释迦牟尼成道日。潮汕地区此节较简，部分家庭会食腊八粥。",
+    "tags": [
+      "年前",
+      "饮食"
+    ]
+  },
+  {
+    "id": "chaoshan-weiya",
+    "name": "尾牙（做牙）",
+    "region": "chaoshan",
+    "calendarType": "lunar",
+    "date": {
+      "month": 12,
+      "day": 16
+    },
+    "importance": "medium",
+    "customs": [
+      {
+        "title": "祭拜土地公",
+        "description": "祭拜伯公（土地公/福德正神），这是一年最后一次“做牙”",
+        "preparations": [
+          "三牲（猪肉、鸡、鱼）",
+          "香烛",
+          "纸钱",
+          "水果"
+        ]
+      },
+      {
+        "title": "商家宴请员工",
+        "description": "商家宴请员工吃尾牙饭，旧时决定来年去留",
+        "preparations": [
+          "宴席食材"
+        ]
+      }
+    ],
+    "description": "每月初二、十六为“做牙”日（祭拜土地公），腊月十六为一年最后一次“做牙”，称“尾牙”。旧时商家会宴请员工，决定来年去留。",
+    "tags": [
+      "年前",
+      "祭祀",
+      "土地公"
+    ]
+  },
+  {
+    "id": "chaoshan-caidun",
+    "name": "采囤（大扫除）",
+    "region": "chaoshan",
+    "calendarType": "lunar",
+    "date": {
+      "month": 12,
+      "day": 23
+    },
+    "importance": "medium",
+    "customs": [
+      {
+        "title": "全家大扫除",
+        "description": "潮汕话称大扫除为“采囤”，寓意除旧迎新。用长竹竿绑竹枝打扫屋内各角落。清洗家具器皿，清理屋内屋外。",
+        "preparations": [
+          "长竹竿",
+          "竹枝",
+          "清洁工具"
+        ]
+      }
+    ],
+    "description": "潮汕话称大扫除为“采囤”，寓意除旧迎新。用长竹竿绑竹枝打扫屋内各角落。",
+    "tags": [
+      "年前",
+      "年俗"
+    ]
+  },
+  {
+    "id": "chaoshan-xiaonian",
+    "name": "小年 / 送神上天（神上天）",
+    "region": "chaoshan",
+    "calendarType": "lunar",
+    "date": {
+      "month": 12,
+      "day": 24
+    },
+    "importance": "high",
+    "customs": [
+      {
+        "title": "祭拜灶神及诸神",
+        "description": "灶神（司命公）及家中供奉的诸神上天向玉皇大帝述职，为其“饯行”，祈求神明上天言好事",
+        "preparations": [
+          "三牲",
+          "甜粿（糯米糍/麦芽糖）",
+          "清茶",
+          "纸马",
+          "香烛",
+          "纸钱"
+        ]
+      },
+      {
+        "title": "撕旧神像旧对联",
+        "description": "将旧神像、旧对联撕下，为贴新春联做准备"
+      }
+    ],
+    "description": "潮汕小年在腊月廿四，是日灶神（司命公）及家中供奉的诸神上天向玉皇大帝述职。俗语“廿四神上天”。",
+    "tags": [
+      "年前",
+      "祭祀",
+      "灶神"
+    ]
+  },
+  {
+    "id": "chaoshan-bannianhuo",
+    "name": "办年货",
+    "region": "chaoshan",
+    "calendarType": "lunar",
+    "date": {
+      "month": 12,
+      "day": 25
+    },
+    "importance": "high",
+    "customs": [
+      {
+        "title": "采购年货食材",
+        "description": "买鸡鹅鸭鱼肉等年货食材",
+        "preparations": [
+          "鸡",
+          "鹅",
+          "鸭",
+          "鱼",
+          "猪肉"
+        ]
+      },
+      {
+        "title": "做粿",
+        "description": "制作各种传统粿品，包括红桃粿、发粿、鼠壳粿等",
+        "preparations": [
+          "糯米粉",
+          "粳米粉",
+          "粿品原料"
+        ]
+      },
+      {
+        "title": "买柑桔春联年画",
+        "description": "采购柑桔、青橄榄、春联、年画等年节用品",
+        "preparations": [
+          "柑桔",
+          "青橄榄",
+          "春联",
+          "年画"
+        ]
+      },
+      {
+        "title": "添置新衣新家具",
+        "description": "过年穿新衣，添置新家具",
+        "preparations": [
+          "新衣服",
+          "新家具"
+        ]
+      }
+    ],
+    "description": "神上天后至除夕期间，家家户户忙碌置办年货。",
+    "tags": [
+      "年前",
+      "年俗"
+    ]
+  },
+  {
+    "id": "chaoshan-chuxi",
+    "name": "除夕（年三十 / 年廿九）",
+    "region": "chaoshan",
+    "calendarType": "lunar",
+    "date": {
+      "month": 12,
+      "day": 30
+    },
+    "importance": "high",
+    "customs": [
+      {
+        "title": "贴春联、门神",
+        "description": "红纸黑字为潮汕特色的春联",
+        "preparations": [
+          "春联",
+          "门神画",
+          "柑桔",
+          "大吉花卉"
+        ]
+      },
+      {
+        "title": "祭祖（拜公嫲）",
+        "description": "下午备三牲、粿品、茶酒祭拜祖先",
+        "preparations": [
+          "三牲（猪肉、鸡/鹅、鱼）",
+          "粿品（红桃粿、发粿）",
+          "茶酒",
+          "香烛纸钱"
+        ],
+        "timing": "下午"
+      },
+      {
+        "title": "围炉（年夜饭）",
+        "description": "全家团聚吃年饭，菜品讲究吉祥寓意",
+        "preparations": [
+          "卤鹅",
+          "火锅",
+          "鱼（余）",
+          "血蚶",
+          "各类海鲜",
+          "甜品"
+        ],
+        "timing": "晚上"
+      },
+      {
+        "title": "守岁",
+        "description": "灯火通明到天亮，为父母添寿",
+        "timing": "整夜"
+      },
+      {
+        "title": "发压岁钱",
+        "description": "给晚辈发压岁钱（压腰钱）",
+        "preparations": [
+          "红包"
+        ]
+      },
+      {
+        "title": "拜天公",
+        "description": "过子时后拜天公（玉皇大帝）",
+        "timing": "过子时后"
+      }
+    ],
+    "description": "一年之末，阖家团圆。潮汕“时年八节”之一，是最重要的节日之一。",
+    "tags": [
+      "时年八节",
+      "祭祀",
+      "团圆",
+      "春节"
+    ]
+  },
+  {
+    "id": "chaoshan-chunjie",
+    "name": "春节 / 正月初一",
+    "region": "chaoshan",
+    "calendarType": "lunar",
+    "date": {
+      "month": 1,
+      "day": 1
+    },
+    "importance": "high",
+    "customs": [
+      {
+        "title": "开正门放鞭炮",
+        "description": "凌晨开门放鞭炮，迎接新年",
+        "preparations": [
+          "鞭炮"
+        ],
+        "timing": "凌晨"
+      },
+      {
+        "title": "拜天公（玉皇大帝）",
+        "description": "凌晨子时祭拜天公",
+        "preparations": [
+          "三牲",
+          "粿品",
+          "茶酒",
+          "香烛"
+        ],
+        "timing": "凌晨子时"
+      },
+      {
+        "title": "拜祖先（公嫲）",
+        "description": "祭拜祖先",
+        "preparations": [
+          "三牲",
+          "粿品",
+          "水果（柑桔必备）",
+          "茶酒",
+          "香烛"
+        ]
+      },
+      {
+        "title": "拜老爷",
+        "description": "到各神庙祭拜地方神明",
+        "preparations": [
+          "三牲",
+          "粿品",
+          "香烛"
+        ]
+      },
+      {
+        "title": "走亲访友拜年",
+        "description": "走亲访友拜年，互赠柑桔（大吉大利）",
+        "preparations": [
+          "柑桔",
+          "红包（压岁钱）",
+          "新衣服"
+        ]
+      },
+      {
+        "title": "新年禁忌",
+        "description": "忌扫地（扫走财气）、忌说不吉利的话"
+      }
+    ],
+    "description": "一年之始，潮汕俗称“过年”。时年八节之首。",
+    "tags": [
+      "时年八节",
+      "春节",
+      "祭祀",
+      "拜年"
+    ]
+  },
+  {
+    "id": "chaoshan-chuerjia",
+    "name": "正月初二（回娘家）",
+    "region": "chaoshan",
+    "calendarType": "lunar",
+    "date": {
+      "month": 1,
+      "day": 2
+    },
+    "importance": "high",
+    "customs": [
+      {
+        "title": "继续拜祖先",
+        "description": "延续春节期间的祭祖活动",
+        "preparations": [
+          "祭拜用品"
+        ]
+      },
+      {
+        "title": "出嫁女儿回娘家",
+        "description": "出嫁女儿回娘家，携带大桔、糖果等，也称“女婿日”",
+        "preparations": [
+          "大桔",
+          "糖果",
+          "饼食"
+        ]
+      },
+      {
+        "title": "继续拜年",
+        "description": "继续走亲访友拜年"
+      }
+    ],
+    "description": "回娘家日，也称“女婿日”。",
+    "tags": [
+      "春节",
+      "回娘家"
+    ]
+  },
+  {
+    "id": "chaoshan-chusan",
+    "name": "正月初三（赤口日）",
+    "region": "chaoshan",
+    "calendarType": "lunar",
+    "date": {
+      "month": 1,
+      "day": 3
+    },
+    "importance": "medium",
+    "customs": [
+      {
+        "title": "继续拜祖先",
+        "description": "延续春节期间的祭祖活动",
+        "preparations": [
+          "祭拜用品"
+        ]
+      },
+      {
+        "title": "赤口日忌拜年",
+        "description": "部分地区视为“赤口日”或“小年朝”，忌拜年（怕口舌是非），此日不外出拜年"
+      }
+    ],
+    "description": "部分地区视为“赤口日”或“小年朝”，忌拜年（怕口舌是非）。",
+    "tags": [
+      "春节",
+      "禁忌"
+    ]
+  },
+  {
+    "id": "chaoshan-shenluotian",
+    "name": "正月初四——神落天（迎神日）",
+    "region": "chaoshan",
+    "calendarType": "lunar",
+    "date": {
+      "month": 1,
+      "day": 4
+    },
+    "importance": "high",
+    "customs": [
+      {
+        "title": "迎接老爷（诸神）回位",
+        "description": "腊月廿四送神上天，初四迎神下凡返回人间。俗语“送神早，接神迟”，故多在下午或晚上接神。",
+        "preparations": [
+          "三牲",
+          "粿品",
+          "水果",
+          "茶酒",
+          "香烛纸钱",
+          "鞭炮"
+        ],
+        "timing": "下午或晚上"
+      },
+      {
+        "title": "拜祖先",
+        "description": "祭拜祖先",
+        "preparations": [
+          "祭拜用品"
+        ]
+      },
+      {
+        "title": "接五路财神",
+        "description": "迎接五路财神回位",
+        "preparations": [
+          "香烛",
+          "纸钱"
+        ]
+      }
+    ],
+    "description": "腊月廿四送神上天，初四迎神下凡返回人间。俗语“送神早，接神迟”，故多在下午或晚上接神。",
+    "tags": [
+      "春节",
+      "祭祀",
+      "迎神"
+    ]
+  },
+  {
+    "id": "chaoshan-caishenri",
+    "name": "正月初五——财神日",
+    "region": "chaoshan",
+    "calendarType": "lunar",
+    "date": {
+      "month": 1,
+      "day": 5
+    },
+    "importance": "medium",
+    "customs": [
+      {
+        "title": "迎财神",
+        "description": "俗传为财神赵公明生日，迎接财神",
+        "preparations": [
+          "三牲",
+          "水果",
+          "香烛"
+        ]
+      },
+      {
+        "title": "商家开市",
+        "description": "商家开工放鞭炮，开市大吉",
+        "preparations": [
+          "鞭炮"
+        ]
+      }
+    ],
+    "description": "俗传为财神赵公明生日，商家尤为重视。",
+    "tags": [
+      "春节",
+      "财神",
+      "神明诞辰"
+    ]
+  },
+  {
+    "id": "chaoshan-renri",
+    "name": "正月初七——人日",
+    "region": "chaoshan",
+    "calendarType": "lunar",
+    "date": {
+      "month": 1,
+      "day": 7
+    },
+    "importance": "medium",
+    "customs": [
+      {
+        "title": "全家吃七样羹",
+        "description": "七种蔬菜同煮，取各菜谐音祈吉祥：芹菜（勤）、蒜（有算/会算）、葱（聪明）、芥菜（发大财）、厚合（合家平安）、芥蓝（好看/健康）、春菜/韭菜（春回大地/长久）",
+        "preparations": [
+          "芹菜",
+          "蒜",
+          "葱",
+          "芥菜",
+          "厚合菜",
+          "芥蓝",
+          "春菜"
+        ]
+      }
+    ],
+    "description": "传说女娲初七造人，此日为“人日”。潮汕人此日必吃“七样羹”。",
+    "tags": [
+      "春节",
+      "饮食",
+      "年俗"
+    ]
+  },
+  {
+    "id": "chaoshan-tiangongsheng",
+    "name": "正月初九——天公生（玉皇诞）",
+    "region": "chaoshan",
+    "calendarType": "lunar",
+    "date": {
+      "month": 1,
+      "day": 9
+    },
+    "importance": "high",
+    "customs": [
+      {
+        "title": "祭拜天公",
+        "description": "初八深夜子时开始祭拜天公（玉皇大帝），全家跪拜",
+        "preparations": [
+          "五牲（猪、鸡、鸭、鹅、鱼）或三牲",
+          "甘蔗（需带叶整根，寓意节节高升）",
+          "发粿",
+          "红桃粿",
+          "面线（长寿）",
+          "清茶",
+          "酒",
+          "水果（柑桔、苹果等）"
+        ],
+        "timing": "初八深夜子时开始"
+      },
+      {
+        "title": "焚烧天公金",
+        "description": "焚烧天公金、大金纸",
+        "preparations": [
+          "天公金",
+          "大金纸"
+        ]
+      },
+      {
+        "title": "放鞭炮烟花",
+        "description": "放鞭炮烟花庆祝天公诞辰",
+        "preparations": [
+          "鞭炮",
+          "烟花"
+        ]
+      }
+    ],
+    "description": "正月初九为玉皇大帝（天公）诞辰。“九”为阳数之极，寓意至高至尊。此日在潮汕极为隆重，堪比大年初一。",
+    "tags": [
+      "春节",
+      "神明诞辰",
+      "玉皇大帝",
+      "祭祀"
+    ]
+  },
+  {
+    "id": "chaoshan-yuanxiao",
+    "name": "元宵节（灯节）",
+    "region": "chaoshan",
+    "calendarType": "lunar",
+    "date": {
+      "month": 1,
+      "day": 15
+    },
+    "importance": "high",
+    "customs": [
+      {
+        "title": "吊喜灯",
+        "description": "家家门口挂灯笼，“灯”与“丁”谐音，点灯寓意添丁",
+        "preparations": [
+          "灯笼",
+          "花灯"
+        ]
+      },
+      {
+        "title": "赏灯/游灯",
+        "description": "灯会游行，花灯、龙灯队伍",
+        "preparations": [
+          "花灯"
+        ]
+      },
+      {
+        "title": "做丁桌",
+        "description": "新添男丁的家庭设宴请客",
+        "preparations": [
+          "宴席食材"
+        ]
+      },
+      {
+        "title": "营老爷",
+        "description": "最重要的游神活动，抬老爷神像巡游村境",
+        "preparations": [
+          "三牲粿品（拜老爷用）",
+          "香烛",
+          "鞭炮"
+        ]
+      },
+      {
+        "title": "猜灯谜",
+        "description": "猜灯谜活动"
+      },
+      {
+        "title": "吃汤圆",
+        "description": "全家吃汤圆，象征团圆",
+        "preparations": [
+          "汤圆"
+        ]
+      },
+      {
+        "title": "行桥度厄",
+        "description": "妇女走过特定桥梁以消灾解厄"
+      }
+    ],
+    "description": "元宵节是潮汕“时年八节”之一，又称“灯节”。正月十一开始热闹，至十五达高潮。“灯”与“丁”谐音，点灯寓意添丁。潮汕元宵地位仅次于春节。",
+    "tags": [
+      "时年八节",
+      "赏灯",
+      "游神",
+      "营老爷"
+    ]
+  },
+  {
+    "id": "chaoshan-yinglaoyeh",
+    "name": "营老爷（游神赛会）",
+    "region": "chaoshan",
+    "calendarType": "lunar",
+    "date": {
+      "month": 1,
+      "day": 1
+    },
+    "importance": "high",
+    "customs": [
+      {
+        "title": "抬神像巡游",
+        "description": "分“文营”（安静巡游）和“武营”（摔跌神轿、过火堆等），让地方保护神巡视辖区，巡土安境、赐福驱邪",
+        "preparations": [
+          "神轿",
+          "香烛",
+          "鞭炮烟火"
+        ]
+      },
+      {
+        "title": "英歌舞及文艺表演",
+        "description": "英歌舞、潮剧、锣鼓队助阵",
+        "preparations": [
+          "英歌舞行头"
+        ]
+      },
+      {
+        "title": "赛大猪",
+        "description": "将大猪装饰祭拜，各家比赛谁的猪更大",
+        "preparations": [
+          "大猪（赛猪用）"
+        ]
+      },
+      {
+        "title": "设宴请客",
+        "description": "各家设宴款待亲友",
+        "preparations": [
+          "三牲",
+          "粿品",
+          "宴席食材"
+        ]
+      }
+    ],
+    "description": "“营”意为巡游，“老爷”为神明的统称。目的是让地方保护神巡视辖区，巡土安境、赐福驱邪。各村有各自的“闹热”日，正月初至二月各村各社轮流举办。",
+    "tags": [
+      "游神",
+      "营老爷",
+      "英歌舞",
+      "春节"
+    ]
+  },
+  {
+    "id": "chaoshan-bogongsheng",
+    "name": "二月初二——伯公生 / 龙抬头 / 头牙",
+    "region": "chaoshan",
+    "calendarType": "lunar",
+    "date": {
+      "month": 2,
+      "day": 2
+    },
+    "importance": "medium",
+    "customs": [
+      {
+        "title": "祭拜土地公（伯公）",
+        "description": "土地公（伯公/福德正神）诞辰，到伯公庙祭拜",
+        "preparations": [
+          "三牲",
+          "粿品",
+          "水果",
+          "香烛纸钱"
+        ]
+      },
+      {
+        "title": "商家做头牙",
+        "description": "一年首次做牙，商家宴请员工",
+        "preparations": [
+          "宴席食材"
+        ]
+      }
+    ],
+    "description": "土地公（伯公/福德正神）诞辰，也是“头牙”（一年首次做牙）。同时为“龙抬头”日，万物复苏。",
+    "tags": [
+      "神明诞辰",
+      "土地公",
+      "龙抬头"
+    ]
+  },
+  {
+    "id": "chaoshan-sanshanguowang",
+    "name": "三山国王诞",
+    "region": "chaoshan",
+    "calendarType": "lunar",
+    "date": {
+      "month": 2,
+      "day": 15
+    },
+    "importance": "medium",
+    "customs": [
+      {
+        "title": "到三山国王庙祭拜",
+        "description": "到三山国王庙祭拜，部分地区有游神活动",
+        "preparations": [
+          "三牲",
+          "粿品",
+          "香烛纸钱"
+        ]
+      }
+    ],
+    "description": "三山国王为潮汕及客家地区的乡土守护神，源于揭西河婆的明山、巾山、独山三山之神。诞辰为农历二月十五（一说二月廿五）。",
+    "tags": [
+      "神明诞辰",
+      "三山国王",
+      "游神"
+    ]
+  },
+  {
+    "id": "chaoshan-guanyindan",
+    "name": "观音诞（观音菩萨佛辰）",
+    "region": "chaoshan",
+    "calendarType": "lunar",
+    "date": {
+      "month": 2,
+      "day": 19
+    },
+    "importance": "medium",
+    "customs": [
+      {
+        "title": "到观音庙上香祭拜",
+        "description": "到观音庙上香祭拜，食素、诵经",
+        "preparations": [
+          "鲜花",
+          "水果",
+          "素食供品",
+          "清茶",
+          "香烛"
+        ]
+      }
+    ],
+    "description": "观世音菩萨诞辰日。潮汕人崇佛重礼，观音信仰极为普遍。（另有六月十九成道日、九月十九出家日）",
+    "tags": [
+      "神明诞辰",
+      "观音",
+      "佛教"
+    ]
+  },
+  {
+    "id": "chaoshan-xuantianshangdi",
+    "name": "玄天上帝诞",
+    "region": "chaoshan",
+    "calendarType": "lunar",
+    "date": {
+      "month": 3,
+      "day": 3
+    },
+    "importance": "medium",
+    "customs": [
+      {
+        "title": "到玄天上帝庙祭拜",
+        "description": "到玄天上帝庙祭拜北极玄天上帝（上帝公）",
+        "preparations": [
+          "三牲",
+          "粿品",
+          "水果",
+          "香烛"
+        ]
+      }
+    ],
+    "description": "北极玄天上帝（上帝公）诞辰，潮汕地区崇奉广泛。",
+    "tags": [
+      "神明诞辰",
+      "玄天上帝"
+    ]
+  },
+  {
+    "id": "chaoshan-taiyangsheng",
+    "name": "太阳公生",
+    "region": "chaoshan",
+    "calendarType": "lunar",
+    "date": {
+      "month": 3,
+      "day": 19
+    },
+    "importance": "medium",
+    "customs": [
+      {
+        "title": "庭院祭拜太阳",
+        "description": "在烈日下于庭院/门口设桌祭拜太阳，朝阳方向摆供品",
+        "preparations": [
+          "粿品",
+          "面条（面线）",
+          "青果（水果）",
+          "香烛"
+        ]
+      }
+    ],
+    "description": "潮汕特有节日。名为祭拜太阳神，实为纪念明末崇祯皇帝殉国（三月十九为崇祯帝自缢日）。清代因文字狱，潮汕人以“拜太阳公”为掩护纪念明朝，后渐成民俗。",
+    "tags": [
+      "神明诞辰",
+      "太阳公",
+      "潮汕特色"
+    ]
+  },
+  {
+    "id": "chaoshan-mazudan",
+    "name": "妈祖诞（天后圣母）",
+    "region": "chaoshan",
+    "calendarType": "lunar",
+    "date": {
+      "month": 3,
+      "day": 23
+    },
+    "importance": "high",
+    "customs": [
+      {
+        "title": "到天后宫祭拜",
+        "description": "到天后宫（妈祖庙）祭拜妈祖，部分地区有盛大巡游活动",
+        "preparations": [
+          "三牲",
+          "粿品",
+          "鲜花",
+          "水果",
+          "香烛纸钱"
+        ]
+      }
+    ],
+    "description": "妈祖（天后娘娘）诞辰。潮汕沿海地区妈祖信仰极盛，渔民航海者视为守护神。",
+    "tags": [
+      "神明诞辰",
+      "妈祖",
+      "沿海"
+    ]
+  },
+  {
+    "id": "chaoshan-bogongsheng-sanye",
+    "name": "伯公生（三月廿九，部分地区）",
+    "region": "chaoshan",
+    "calendarType": "lunar",
+    "date": {
+      "month": 3,
+      "day": 29
+    },
+    "importance": "low",
+    "customs": [
+      {
+        "title": "到伯公庙祭拜",
+        "description": "部分潮汕地区在此日祭拜土地公（伯公）",
+        "preparations": [
+          "三牲",
+          "粿品",
+          "香烛"
+        ]
+      }
+    ],
+    "description": "部分潮汕地区另有此日为土地公（伯公）神诞日。",
+    "tags": [
+      "神明诞辰",
+      "土地公"
+    ]
+  },
+  {
+    "id": "chaoshan-qingming",
+    "name": "清明节",
+    "region": "chaoshan",
+    "calendarType": "solarTerm",
+    "date": {
+      "month": 0,
+      "day": 0,
+      "solarTerm": "清明"
+    },
+    "importance": "high",
+    "customs": [
+      {
+        "title": "扫墓祭祖（挂纸）",
+        "description": "清理墓地、填土修坟。潮汕称扫墓为“挂纸”（挂纸/过纸），有“清明不返无祖宗”之说",
+        "preparations": [
+          "五牲（猪肉、鸡、鸭、鱼、猪肝）或三牲",
+          "纸钱",
+          "香烛"
+        ]
+      },
+      {
+        "title": "重描碑文",
+        "description": "用红绿油漆重描碑文",
+        "preparations": [
+          "红绿油漆"
+        ]
+      },
+      {
+        "title": "压纸条",
+        "description": "压白红纸条于坟上（白纸代亡者，红纸代生者）",
+        "preparations": [
+          "白红纸条"
+        ]
+      },
+      {
+        "title": "做粿品祭拜",
+        "description": "制作潮汕清明特色粿品祭拜",
+        "preparations": [
+          "朴籽粿",
+          "鼠壳粿",
+          "红桃粿",
+          "酵粿"
+        ]
+      },
+      {
+        "title": "吃薄饼（春卷）",
+        "description": "吃薄饼（春卷），清明时令食物",
+        "preparations": [
+          "薄饼（春卷）材料"
+        ]
+      },
+      {
+        "title": "踏青郊游",
+        "description": "借清明节踏青郊游"
+      }
+    ],
+    "description": "时年八节之一。潮汕称扫墓为“挂纸”（挂纸/过纸），源自唐宋寒食节禁火扫墓掛纸于坟头的古俗。潮汕极重清明祭祖，有“清明不返无祖宗”之说。",
+    "tags": [
+      "时年八节",
+      "祭祀",
+      "扫墓",
+      "清明"
+    ]
+  },
+  {
+    "id": "chaoshan-fodan",
+    "name": "佛诞日",
+    "region": "chaoshan",
+    "calendarType": "lunar",
+    "date": {
+      "month": 4,
+      "day": 8
+    },
+    "importance": "low",
+    "customs": [
+      {
+        "title": "到寺庙礼佛",
+        "description": "到寺庙礼佛、吃素，纪念释迦牟尼佛诞辰",
+        "preparations": [
+          "鲜花",
+          "素果",
+          "清香"
+        ]
+      }
+    ],
+    "description": "释迦牟尼佛诞辰，佛教重要节日。",
+    "tags": [
+      "佛教",
+      "神明诞辰"
+    ]
+  },
+  {
+    "id": "chaoshan-duanwu",
+    "name": "端午节（五月节）",
+    "region": "chaoshan",
+    "calendarType": "lunar",
+    "date": {
+      "month": 5,
+      "day": 5
+    },
+    "importance": "high",
+    "customs": [
+      {
+        "title": "祭拜祖先",
+        "description": "端午祭祖",
+        "preparations": [
+          "粽子",
+          "栀粿",
+          "卤鹅/卤鸭",
+          "毛桃",
+          "三华李",
+          "鱼",
+          "肉"
+        ]
+      },
+      {
+        "title": "吃粽子和栀粿",
+        "description": "吃粽子（栀粽/栀粿为潮汕特色），栀粿用糯米、栀子水、碱水制成",
+        "preparations": [
+          "糯米",
+          "栀子水",
+          "碱水"
+        ]
+      },
+      {
+        "title": "赛龙舟",
+        "description": "端午赛龙舟",
+        "preparations": [
+          "龙舟相关"
+        ]
+      },
+      {
+        "title": "插艾枝、挂香囊",
+        "description": "门口插艾草菖蒲驱邪",
+        "preparations": [
+          "艾草",
+          "菖蒲"
+        ]
+      },
+      {
+        "title": "吃圣甘枳",
+        "description": "吃圣甘枳（驱蛔虫）"
+      },
+      {
+        "title": "洗龙须水",
+        "description": "用午时水洗浴，午时水有驱毒辟邪之效",
+        "timing": "午时"
+      },
+      {
+        "title": "吃真珠花菜猪血汤",
+        "description": "端午时令食物，真珠花菜猪血汤"
+      }
+    ],
+    "description": "时年八节之一，潮汕俗称“五月节”。既纪念屈原，也有祭祀亡亲和驱毒辟邪之意。被视为“圣日”。",
+    "tags": [
+      "时年八节",
+      "端午",
+      "龙舟",
+      "驱邪"
+    ]
+  },
+  {
+    "id": "chaoshan-guoqiaojie",
+    "name": "六月初六——过桥节",
+    "region": "chaoshan",
+    "calendarType": "lunar",
+    "date": {
+      "month": 6,
+      "day": 6
+    },
+    "importance": "low",
+    "customs": [
+      {
+        "title": "翻晒衣物书籍",
+        "description": "民间有晒衣物书籍的习俗，又有“天贶节”“翻经节”之称"
+      },
+      {
+        "title": "过桥",
+        "description": "过桥习俗"
+      }
+    ],
+    "description": "潮汕部分地区的传统节日，又有“天贶节”“翻经节”之称。民间有晒衣物书籍的习俗。",
+    "tags": [
+      "民俗"
+    ]
+  },
+  {
+    "id": "chaoshan-wugumusheng-shang",
+    "name": "五谷母生（上半年）",
+    "region": "chaoshan",
+    "calendarType": "lunar",
+    "date": {
+      "month": 6,
+      "day": 15
+    },
+    "importance": "medium",
+    "customs": [
+      {
+        "title": "设五谷神位",
+        "description": "用米筒装满白米，贴红纸作五谷神位",
+        "preparations": [
+          "白米",
+          "米筒",
+          "红纸"
+        ]
+      },
+      {
+        "title": "做粿品祭拜五谷神",
+        "description": "做五种粿品祭拜五谷神，感谢早稻丰收",
+        "preparations": [
+          "五种粿品（粟穗粿等）",
+          "香烛"
+        ]
+      }
+    ],
+    "description": "五谷神（五谷母/五谷爷）诞辰。潮汕水稻一年两熟，故五谷神诞分六月十五和十月十五两次，分别在早稻和晚稻收成后祭拜。",
+    "tags": [
+      "神明诞辰",
+      "五谷神",
+      "丰收"
+    ]
+  },
+  {
+    "id": "chaoshan-guanyinchengdao",
+    "name": "观音成道日",
+    "region": "chaoshan",
+    "calendarType": "lunar",
+    "date": {
+      "month": 6,
+      "day": 19
+    },
+    "importance": "medium",
+    "customs": [
+      {
+        "title": "到观音庙上香",
+        "description": "到观音庙上香、食素",
+        "preparations": [
+          "鲜花",
+          "水果",
+          "素食供品",
+          "清茶",
+          "香烛"
+        ]
+      }
+    ],
+    "description": "观世音菩萨成道日。",
+    "tags": [
+      "神明诞辰",
+      "观音",
+      "佛教"
+    ]
+  },
+  {
+    "id": "chaoshan-guandidan",
+    "name": "关帝诞",
+    "region": "chaoshan",
+    "calendarType": "lunar",
+    "date": {
+      "month": 6,
+      "day": 24
+    },
+    "importance": "medium",
+    "customs": [
+      {
+        "title": "到关帝庙祭拜",
+        "description": "到关帝庙祭拜关圣帝君（关公/关帝爷），潮汕商人尤为崇奉，视为武财神和义薄云天的象征",
+        "preparations": [
+          "三牲",
+          "水果",
+          "茶酒",
+          "香烛纸钱"
+        ]
+      }
+    ],
+    "description": "关圣帝君（关公/关帝爷）诞辰。潮汕商人尤为崇奉关帝，视为武财神和义薄云天的象征。",
+    "tags": [
+      "神明诞辰",
+      "关帝",
+      "财神"
+    ]
+  },
+  {
+    "id": "chaoshan-qixi",
+    "name": "七夕 / 公婆母生 / 出花园",
+    "region": "chaoshan",
+    "calendarType": "lunar",
+    "date": {
+      "month": 7,
+      "day": 7
+    },
+    "importance": "high",
+    "customs": [
+      {
+        "title": "出花园——花草沐浴",
+        "description": "15虚岁孩子用12种花草（芙蓉花、石榴花、仙草、状元竹等）泡“鲜花水”沐浴",
+        "preparations": [
+          "12种花草（芙蓉花、石榴花、仙草、状元竹等）"
+        ]
+      },
+      {
+        "title": "出花园——穿红衣",
+        "description": "穿红肚兜、红衣、红木屐",
+        "preparations": [
+          "红衣",
+          "红裤",
+          "红肚兜",
+          "红木屐"
+        ]
+      },
+      {
+        "title": "出花园——拜公婆母",
+        "description": "祭拜公婆母（床脚公/婆神），为护佑小孩的神明",
+        "preparations": [
+          "粿品",
+          "三牲",
+          "纸制花园亭（供品）"
+        ]
+      },
+      {
+        "title": "出花园——花园宴和咬鸡头",
+        "description": "吃“花园宴”——孩子坐主位，咬鸡头（吃整只公鸡）",
+        "preparations": [
+          "整只公鸡（煮熟）",
+          "宴席食材"
+        ]
+      },
+      {
+        "title": "一般家庭拜公婆母",
+        "description": "一般家庭拜公婆母，为家中孩子祈福",
+        "preparations": [
+          "香烛",
+          "粿品"
+        ]
+      },
+      {
+        "title": "妇女乞巧",
+        "description": "七夕乞巧活动"
+      }
+    ],
+    "description": "潮汕称此日为“公婆母生”（床脚公/婆神的生日），是护佑小孩的神明。更重要的是，此日为15虚岁男女孩举行“出花园”成人礼的日子——潮汕特有的成人礼俗。",
+    "tags": [
+      "成人礼",
+      "出花园",
+      "七夕",
+      "神明诞辰",
+      "潮汕特色"
+    ]
+  },
+  {
+    "id": "chaoshan-zhongyuan",
+    "name": "中元节 / 七月半（盂兰盆节）",
+    "region": "chaoshan",
+    "calendarType": "lunar",
+    "date": {
+      "month": 7,
+      "day": 15
+    },
+    "importance": "high",
+    "customs": [
+      {
+        "title": "祭祖",
+        "description": "备丰盛祭品拜公嫲（祭祖）",
+        "preparations": [
+          "三牲/五牲",
+          "粿品",
+          "酒",
+          "茶",
+          "饭"
+        ]
+      },
+      {
+        "title": "施孤（恤孤/普渡）",
+        "description": "祭拜无主孤魂，搭普渡坛，悬挂“盂兰盆会”横幅",
+        "preparations": [
+          "白米",
+          "糖果饼食",
+          "纸衣纸钱",
+          "香烛"
+        ]
+      },
+      {
+        "title": "放焰口",
+        "description": "僧道做法事超度亡魂"
+      },
+      {
+        "title": "烧纸钱、纸衣",
+        "description": "烧纸钱、纸衣（烧街衣），给亡者焚烧",
+        "preparations": [
+          "纸钱",
+          "纸衣"
+        ]
+      },
+      {
+        "title": "放河灯/放水灯",
+        "description": "放河灯/放水灯，引导亡魂",
+        "preparations": [
+          "河灯",
+          "纸制品"
+        ]
+      },
+      {
+        "title": "看潮剧（神功戏）",
+        "description": "看潮剧，又称“神功戏”"
+      },
+      {
+        "title": "抢孤",
+        "description": "部分地区有抢孤习俗"
+      }
+    ],
+    "description": "时年八节之一。道教称“中元节”（地官赦罪日），佛教称“盂兰盆节”，民间称“鬼节”“七月半”。潮汕极为重视此节，传说七月初鬼门开放，无主孤魂游荡人间。",
+    "tags": [
+      "时年八节",
+      "祭祀",
+      "中元",
+      "普渡"
+    ]
+  },
+  {
+    "id": "chaoshan-zhongqiu",
+    "name": "中秋节",
+    "region": "chaoshan",
+    "calendarType": "lunar",
+    "date": {
+      "month": 8,
+      "day": 15
+    },
+    "importance": "high",
+    "customs": [
+      {
+        "title": "拜月娘",
+        "description": "露天设香案拜月（妇女和儿童主导），“男不圆月，女不祭灶”",
+        "preparations": [
+          "月饼（朥饼，垒成塔状）",
+          "芋头",
+          "柚子（贴红纸）",
+          "柿饼",
+          "菱角",
+          "油粿",
+          "酥饺",
+          "水果",
+          "香烛"
+        ],
+        "timing": "晚上月出时"
+      },
+      {
+        "title": "祭祖",
+        "description": "中秋祭祖",
+        "preparations": [
+          "三牲",
+          "粿品"
+        ]
+      },
+      {
+        "title": "烧塔（烧瓦塔）",
+        "description": "用砖瓦砌塔并焚烧，祈福庆丰收",
+        "preparations": [
+          "砖瓦",
+          "柴草"
+        ]
+      },
+      {
+        "title": "吃月饼（朥饼）",
+        "description": "吃潮汕特色月饼——朥饼",
+        "preparations": [
+          "朥饼"
+        ]
+      },
+      {
+        "title": "剥芋头",
+        "description": "食芋寓“辟邪消灾”（芋头“笑”开为佳）",
+        "preparations": [
+          "芋头"
+        ]
+      },
+      {
+        "title": "赏月、品工夫茶",
+        "description": "赏月配工夫茶",
+        "preparations": [
+          "工夫茶具",
+          "茶叶"
+        ]
+      },
+      {
+        "title": "燃烟堆",
+        "description": "燃烟堆庆祝中秋",
+        "preparations": [
+          "柴草"
+        ]
+      }
+    ],
+    "description": "时年八节之一。潮汕中秋以“拜月娘”为核心，另有烧塔、食芋等特色习俗。“男不圆月，女不祭灶”——拜月以妇女和儿童为主。",
+    "tags": [
+      "时年八节",
+      "中秋",
+      "拜月",
+      "烧塔"
+    ]
+  },
+  {
+    "id": "chaoshan-chongyang",
+    "name": "重阳节",
+    "region": "chaoshan",
+    "calendarType": "lunar",
+    "date": {
+      "month": 9,
+      "day": 9
+    },
+    "importance": "medium",
+    "customs": [
+      {
+        "title": "登高望远",
+        "description": "九九重阳登高望远"
+      },
+      {
+        "title": "放风筝",
+        "description": "放飞“衰运”，迎来“好运”",
+        "preparations": [
+          "风筝"
+        ]
+      },
+      {
+        "title": "祭祖扫墓（秋祭）",
+        "description": "秋祭扫墓祭祖",
+        "preparations": [
+          "三牲粿品"
+        ]
+      },
+      {
+        "title": "赏菊、饮菊花酒",
+        "description": "赏菊花、饮菊花酒",
+        "preparations": [
+          "菊花酒"
+        ]
+      },
+      {
+        "title": "翻晒衣物",
+        "description": "趁秋高气爽翻晒衣物"
+      }
+    ],
+    "description": "九九重阳，潮汕人视为“转运日”，有登高放风筝之俗。",
+    "tags": [
+      "重阳",
+      "登高",
+      "秋祭"
+    ]
+  },
+  {
+    "id": "chaoshan-guanyinchujia",
+    "name": "观音出家日",
+    "region": "chaoshan",
+    "calendarType": "lunar",
+    "date": {
+      "month": 9,
+      "day": 19
+    },
+    "importance": "low",
+    "customs": [
+      {
+        "title": "到观音庙上香",
+        "description": "到观音庙上香、食素",
+        "preparations": [
+          "鲜花",
+          "水果",
+          "素食供品",
+          "香烛"
+        ]
+      }
+    ],
+    "description": "观世音菩萨出家日。",
+    "tags": [
+      "神明诞辰",
+      "观音",
+      "佛教"
+    ]
+  },
+  {
+    "id": "chaoshan-xiayuan",
+    "name": "下元节 / 五谷母生（下半年）",
+    "region": "chaoshan",
+    "calendarType": "lunar",
+    "date": {
+      "month": 10,
+      "day": 15
+    },
+    "importance": "medium",
+    "customs": [
+      {
+        "title": "祭拜五谷神",
+        "description": "感谢晚稻丰收，祭拜五谷母/五谷爷",
+        "preparations": [
+          "白米",
+          "米筒",
+          "红纸",
+          "粿品",
+          "香烛纸钱"
+        ]
+      },
+      {
+        "title": "祭拜水官大帝",
+        "description": "道教下元节（水官解厄日），部分家庭祭拜水官大帝",
+        "preparations": [
+          "香烛",
+          "纸钱"
+        ]
+      }
+    ],
+    "description": "道教下元节（水官解厄日）。同时为五谷母/五谷爷的第二次神诞（晚稻收成后祭拜）。",
+    "tags": [
+      "下元节",
+      "神明诞辰",
+      "五谷神",
+      "丰收"
+    ]
+  },
+  {
+    "id": "chaoshan-dongzhi",
+    "name": "冬至 / 冬节",
+    "region": "chaoshan",
+    "calendarType": "solarTerm",
+    "date": {
+      "month": 0,
+      "day": 0,
+      "solarTerm": "冬至"
+    },
+    "importance": "high",
+    "customs": [
+      {
+        "title": "搓冬节圆（汤圆/甜丸）",
+        "description": "前一晚全家搓圆，“吃了冬节圆多一岁”",
+        "preparations": [
+          "糯米粉"
+        ],
+        "timing": "前一晚搓圆"
+      },
+      {
+        "title": "祭祖",
+        "description": "备三牲、粿品、冬节丸祭祖，有“冬节没返无祖宗”的俗语",
+        "preparations": [
+          "三牲",
+          "粿品（发粿等）",
+          "冬节丸",
+          "酒茶"
+        ]
+      },
+      {
+        "title": "扫墓（挂冬纸）",
+        "description": "部分家庭冬至扫墓",
+        "preparations": [
+          "鲜蚶（撒蚶壳作“冥钱”）",
+          "三牲",
+          "纸钱"
+        ]
+      },
+      {
+        "title": "做冬节茧（茧粿）",
+        "description": "制作冬节茧（茧粿），冬至特色粿品",
+        "preparations": [
+          "糯米粉",
+          "粿品原料"
+        ]
+      },
+      {
+        "title": "吃冬节圆",
+        "description": "全家吃冬节圆，“吃了冬节圆多一岁”",
+        "preparations": [
+          "冬节圆"
+        ]
+      }
+    ],
+    "description": "时年八节之一。潮汕有“冬节大过年”“冬节没返无祖宗”的俗语，冬至地位极高，外出游子必须回家祭祖。",
+    "tags": [
+      "时年八节",
+      "冬至",
+      "祭祀",
+      "扫墓"
+    ]
+  },
+  {
+    "id": "chaoshan-shuowang-bailaoyeh",
+    "name": "每月初一、十五——拜老爷",
+    "region": "chaoshan",
+    "calendarType": "lunar",
+    "date": {
+      "month": 1,
+      "day": 1
+    },
+    "importance": "medium",
+    "customs": [
+      {
+        "title": "在家中神龛上香敬茶",
+        "description": "在家中神龛上香、敬茶",
+        "preparations": [
+          "清茶三杯",
+          "清香"
+        ]
+      },
+      {
+        "title": "到庙宇祭拜",
+        "description": "到伯公庙、老爷宫祭拜",
+        "preparations": [
+          "水果",
+          "粿品"
+        ]
+      }
+    ],
+    "description": "潮汕人最基本的祭拜周期，朔望之日（每月初一和十五）祭拜家中神明及到老爷宫祭拜。",
+    "tags": [
+      "日常祭拜",
+      "祭祀"
+    ]
+  },
+  {
+    "id": "chaoshan-zuoya",
+    "name": "每月初二、十六——做牙（拜土地公）",
+    "region": "chaoshan",
+    "calendarType": "lunar",
+    "date": {
+      "month": 1,
+      "day": 2
+    },
+    "importance": "low",
+    "customs": [
+      {
+        "title": "祭拜土地公",
+        "description": "祭拜土地公（伯公/福德正神），商铺拜门口土地",
+        "preparations": [
+          "三牲或简单供品",
+          "香烛"
+        ]
+      }
+    ],
+    "description": "祭拜土地公（伯公/福德正神）的固定日子，商家尤为重视。每月农历初二和十六。",
+    "tags": [
+      "日常祭拜",
+      "土地公",
+      "祭祀"
+    ]
+  },
+  {
+    "id": "chaoshan-cunnaore",
+    "name": "正月各村“闹热”日",
+    "region": "chaoshan",
+    "calendarType": "lunar",
+    "date": {
+      "month": 1,
+      "day": 1
+    },
+    "importance": "high",
+    "customs": [
+      {
+        "title": "营老爷（游神）",
+        "description": "抬神像巡游村境，各村轮流举办"
+      },
+      {
+        "title": "英歌舞",
+        "description": "潮汕特色的集体舞蹈表演",
+        "preparations": [
+          "英歌舞行头"
+        ]
+      },
+      {
+        "title": "各种民俗表演",
+        "description": "布马舞、鳌鱼舞、龙舞、狮舞等传统表演"
+      }
+    ],
+    "description": "每个村落都有自己的“闹热”（相当于庙会）日子，正月初一至二月不等，各村轮流举办，一乡一俗。活动包括营老爷、英歌舞、布马舞、鳌鱼舞、龙舞、狮舞等。",
+    "tags": [
+      "游神",
+      "营老爷",
+      "英歌舞",
+      "庙会",
+      "潮汕特色"
+    ]
+  },
+  {
+    "id": "chaoshan-xingqiaodue",
+    "name": "行桥度厄",
+    "region": "chaoshan",
+    "calendarType": "lunar",
+    "date": {
+      "month": 1,
+      "day": 15
+    },
+    "importance": "medium",
+    "customs": [
+      {
+        "title": "走过桥梁消灾解厄",
+        "description": "妇女在特定日子走过桥梁，寓意消灾解厄、保佑平安",
+        "timing": "正月十五前后，或特定日子"
+      }
+    ],
+    "description": "妇女在正月十五前后或特定日子走过桥梁，寓意消灾解厄、保佑平安。",
+    "tags": [
+      "民俗",
+      "消灾",
+      "潮汕特色"
+    ]
+  },
+  {
+    "id": "chaoshan-zhushengniangniangdan",
+    "name": "注生娘娘诞",
+    "region": "chaoshan",
+    "calendarType": "lunar",
+    "date": {
+      "month": 3,
+      "day": 20
+    },
+    "importance": "low",
+    "customs": [
+      {
+        "title": "祭拜注生娘娘",
+        "description": "祈求生育、保佑母子平安",
+        "preparations": [
+          "鲜花",
+          "水果",
+          "香烛"
+        ]
+      }
+    ],
+    "description": "注生娘娘诞辰，祈求生育顺利、母子平安。",
+    "tags": [
+      "神明诞辰",
+      "注生娘娘"
+    ]
+  }
+]

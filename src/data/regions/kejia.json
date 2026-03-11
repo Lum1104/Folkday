@@ -1,0 +1,1669 @@
+[
+  {
+    "id": "kejia-songzaoshen",
+    "name": "送灶神",
+    "region": "kejia",
+    "calendarType": "lunar",
+    "date": {
+      "month": 12,
+      "day": 23
+    },
+    "importance": "medium",
+    "customs": [
+      {
+        "title": "祭灶仪式",
+        "description": "由家庭主妇在灶台上摆上供品，焚香点烛，叩首祈祷，祈求来年五谷丰登、人畜平安。",
+        "preparations": [
+          "清茶",
+          "果品",
+          "香烛"
+        ],
+        "timing": "农历十二月二十三日"
+      },
+      {
+        "title": "甜嘴送灶",
+        "description": "用麦芽糖涂灶神嘴，意为“甜嘴”，免得灶神上天说坏话。",
+        "preparations": [
+          "麦芽糖（灶糖）",
+          "纸马（供灶神骑马上天）"
+        ]
+      }
+    ],
+    "description": "传说灶王爷在这一天要升天向玉皇大帝禀报这户人家一年的善恶，人们祭灶是为了让灶神“上天言好事，回宫降吉祥”。此习俗起源很早，周代已被列为“五祀”之一，宋代定为十二月二十四日。客家地区多在二十三或二十四日举行。",
+    "tags": [
+      "春节系列",
+      "祭祀",
+      "灶神"
+    ]
+  },
+  {
+    "id": "kejia-runianji",
+    "name": "入年架",
+    "region": "kejia",
+    "calendarType": "lunar",
+    "date": {
+      "month": 12,
+      "day": 25
+    },
+    "importance": "high",
+    "customs": [
+      {
+        "title": "大扫除",
+        "description": "打扫房屋里里外外，称“扫屋”。",
+        "timing": "农历十二月二十五日起"
+      },
+      {
+        "title": "蒸年糕做粄",
+        "description": "开始蒸年糕、做甜粄（年糕）、发粄（发糕）、萝卜粄等。舂米做粄、煮酒、打豆腐。",
+        "preparations": [
+          "年糕（甜粄）",
+          "发粄",
+          "煎堆",
+          "糖果"
+        ]
+      },
+      {
+        "title": "杀猪做腊味",
+        "description": "杀猪、做腊味，准备过年肉类。"
+      },
+      {
+        "title": "年俗禁忌与准备",
+        "description": "家中不可吵架、不说不吉利的话。借出去的东西要收回，欠别人的债要还清。",
+        "preparations": [
+          "对联",
+          "门神",
+          "鞭炮",
+          "新衣服",
+          "各种年货"
+        ]
+      }
+    ],
+    "description": "这是客家人特有的年俗概念，意为“进入过年阶段”。从这天起到除夕，属于春节的准备阶段。旧时农务繁忙，从入年架开始农民才放下手中活计，全力准备过年。客家俗语云：“入年架，就禾架”（意为放下农具）。",
+    "tags": [
+      "春节系列",
+      "客家特有",
+      "年俗"
+    ]
+  },
+  {
+    "id": "kejia-chuxi",
+    "name": "除夕",
+    "region": "kejia",
+    "calendarType": "lunar",
+    "date": {
+      "month": 12,
+      "day": 30
+    },
+    "importance": "high",
+    "customs": [
+      {
+        "title": "贴春联门神",
+        "description": "贴春联、门神、年画，宰鹅宰鸭准备丰盛菜肴。",
+        "preparations": [
+          "春联",
+          "门神"
+        ],
+        "timing": "除夕白天"
+      },
+      {
+        "title": "洗平安水",
+        "description": "午后用中草药煮水洗“平安水”（也叫“转妹家水”），洗完换新衣裳。",
+        "preparations": [
+          "中草药（洗澡用）"
+        ],
+        "timing": "除夕午后"
+      },
+      {
+        "title": "敬神祭祖",
+        "description": "以三牲（鸡、猪肉、鱼）敬神祭祖。",
+        "preparations": [
+          "三牲（鸡鸭鱼肉）",
+          "香",
+          "纸钱"
+        ]
+      },
+      {
+        "title": "团圆饭",
+        "description": "吃团圆饭（年夜饭），桌上必有鸡、鱼（年年有余）、酿豆腐、肉丸等。灶具要洗干净，备正月初一吃素。",
+        "preparations": [
+          "酿豆腐",
+          "肉丸",
+          "年糕"
+        ]
+      },
+      {
+        "title": "守岁",
+        "description": "守岁：整夜不睡，等待新年到来。每个房间点“岁火”，整夜灯火通明，有些地方牛栏、猪舍也要点灯。",
+        "preparations": [
+          "蜡烛"
+        ],
+        "timing": "除夕夜整夜"
+      },
+      {
+        "title": "发压岁钱与蒸岁饭",
+        "description": "家长给小孩发“压岁钱”。蒸“岁饭”（也叫隔年饭），用大木甑蒸，饭上插上筷子和柏叶、红纸花，寓意年年有余。",
+        "preparations": [
+          "压岁钱",
+          "鞭炮"
+        ]
+      }
+    ],
+    "description": "一年的最后一天，辞旧迎新，阖家团圆。客家人极为重视除夕，认为这是一年中最重要的日子之一。",
+    "tags": [
+      "春节系列",
+      "祭祖",
+      "团圆",
+      "守岁"
+    ]
+  },
+  {
+    "id": "kejia-chunjie",
+    "name": "春节",
+    "region": "kejia",
+    "calendarType": "lunar",
+    "date": {
+      "month": 1,
+      "day": 1
+    },
+    "importance": "high",
+    "customs": [
+      {
+        "title": "开大门接财神",
+        "description": "凌晨由家中长辈在吉时打开大门，燃放鞭炮，叫“接财神”或“开财门”。",
+        "preparations": [
+          "鞭炮"
+        ],
+        "timing": "正月初一凌晨吉时"
+      },
+      {
+        "title": "吃素",
+        "description": "全天或早上吃素（部分地区），寓意一年清静平安。吃斋菜（部分地区）。",
+        "timing": "正月初一早上或全天"
+      },
+      {
+        "title": "拜年",
+        "description": "晚辈向长辈拜年，说吉祥话。出门走访邻里亲友，互道恭喜。",
+        "preparations": [
+          "红包（利是）",
+          "糖果花生瓜子（待客用）",
+          "茶叶"
+        ]
+      },
+      {
+        "title": "新年禁忌",
+        "description": "全天不可扫地（怕扫掉财气），不可打骂小孩，不说不吉利的话，不可用刀剪（怕“剪断”好运）。"
+      }
+    ],
+    "description": "一年之始，万象更新。客家人称“过年”，是一年中最隆重的节日。",
+    "tags": [
+      "春节系列",
+      "拜年",
+      "禁忌"
+    ]
+  },
+  {
+    "id": "kejia-zhuanmeijia",
+    "name": "转妹家",
+    "region": "kejia",
+    "calendarType": "lunar",
+    "date": {
+      "month": 1,
+      "day": 2
+    },
+    "importance": "high",
+    "customs": [
+      {
+        "title": "回娘家",
+        "description": "已婚女儿携全家回娘家，带上礼物（糕点、糖果、鸡等）拜见父母。",
+        "preparations": [
+          "年糕",
+          "糖果",
+          "鸡鸭",
+          "水果等回门礼"
+        ]
+      },
+      {
+        "title": "娘家招待",
+        "description": "娘家准备丰盛的饭菜招待。"
+      },
+      {
+        "title": "做头牙拜伯公",
+        "description": "也是做“头牙”拜伯公的日子之一（商家尤其重视）。"
+      }
+    ],
+    "description": "出嫁的女儿在这一天携丈夫和子女回娘家拜年，这是客家人非常重视的传统。",
+    "tags": [
+      "春节系列",
+      "回娘家",
+      "家庭"
+    ]
+  },
+  {
+    "id": "kejia-songqiong",
+    "name": "送穷日",
+    "region": "kejia",
+    "calendarType": "lunar",
+    "date": {
+      "month": 1,
+      "day": 3
+    },
+    "importance": "low",
+    "customs": [
+      {
+        "title": "送穷",
+        "description": "可以开始扫地了，将初一初二的垃圾清扫出门，称为“送穷”。",
+        "timing": "正月初三"
+      },
+      {
+        "title": "休息",
+        "description": "部分地区忌出门拜年（认为这天不吉利）。休息日。客家俗语“初一早，初二早，初三睡到饱”。"
+      }
+    ],
+    "description": "民间认为初三是“穷鬼日”，要将穷气送走。客家俗语“初一早，初二早，初三睡到饱”，这天可以睡懒觉休息。",
+    "tags": [
+      "春节系列",
+      "送穷",
+      "禁忌"
+    ]
+  },
+  {
+    "id": "kejia-jieshen",
+    "name": "接神日",
+    "region": "kejia",
+    "calendarType": "lunar",
+    "date": {
+      "month": 1,
+      "day": 4
+    },
+    "importance": "medium",
+    "customs": [
+      {
+        "title": "接神",
+        "description": "准备供品迎接灶神等众神回到人间，焚香点烛。",
+        "preparations": [
+          "三牲",
+          "果品",
+          "香烛"
+        ]
+      }
+    ],
+    "description": "传说这天是诸神从天庭返回人间的日子，民间在这天“接神”。",
+    "tags": [
+      "春节系列",
+      "祭祀",
+      "神明"
+    ]
+  },
+  {
+    "id": "kejia-chunianjia",
+    "name": "出年架",
+    "region": "kejia",
+    "calendarType": "lunar",
+    "date": {
+      "month": 1,
+      "day": 5
+    },
+    "importance": "medium",
+    "customs": [
+      {
+        "title": "送年",
+        "description": "放鞭炮，“送年”。店铺可以开门营业，解除过年期间的各种禁忌。",
+        "preparations": [
+          "鞭炮",
+          "香烛"
+        ]
+      },
+      {
+        "title": "祭祖",
+        "description": "有的地方要再次祭祖。"
+      }
+    ],
+    "description": "客家人认为从初一到初五是“过年阶段”，初五这天“出年架”，意为过年阶段结束。也称“破五”，此后各种禁忌解除。",
+    "tags": [
+      "春节系列",
+      "破五",
+      "开市"
+    ]
+  },
+  {
+    "id": "kejia-renri",
+    "name": "人日",
+    "region": "kejia",
+    "calendarType": "lunar",
+    "date": {
+      "month": 1,
+      "day": 7
+    },
+    "importance": "medium",
+    "customs": [
+      {
+        "title": "做汤圆煎饼",
+        "description": "家家做汤圆、制煎饼。",
+        "preparations": [
+          "汤圆材料"
+        ]
+      },
+      {
+        "title": "七样菜",
+        "description": "将七种蔬菜（菠菜、芹菜、茴香、蒜、葱、韭菜、芥菜或白菜）共煮食用，称“七样菜”或“七样羹”。部分地区以擂茶配七样菜食用。",
+        "preparations": [
+          "七种蔬菜",
+          "擂茶（部分地区）"
+        ]
+      }
+    ],
+    "description": "传说女娲创世，第七天造出了人，所以正月初七是“人的生日”。客家传统习俗将这天视为“众人生日”。",
+    "tags": [
+      "春节系列",
+      "人日",
+      "七样菜"
+    ]
+  },
+  {
+    "id": "kejia-tiangongsheng",
+    "name": "天公生",
+    "region": "kejia",
+    "calendarType": "lunar",
+    "date": {
+      "month": 1,
+      "day": 9
+    },
+    "importance": "high",
+    "customs": [
+      {
+        "title": "祭拜天公",
+        "description": "从初八深夜子时（23:00）开始祭拜，至初九凌晨。在露天设祭坛，由家中长者上香。行三跪九叩之礼。",
+        "preparations": [
+          "三牲",
+          "五果",
+          "面线",
+          "红龟粿",
+          "清茶",
+          "甜酒",
+          "鞭炮"
+        ],
+        "timing": "初八深夜子时至初九凌晨"
+      },
+      {
+        "title": "焚烧天公金",
+        "description": "焚烧“天公金”（特制的金纸）。有些地方在忠信地区还有“花灯节”。",
+        "preparations": [
+          "天公金（大百寿金）",
+          "香烛"
+        ]
+      }
+    ],
+    "description": "正月初九是玉皇大帝（天公）的诞辰日。客家人与闽南人都重视此日，认为天公是最高的神明，要隆重祭拜。",
+    "tags": [
+      "春节系列",
+      "天公",
+      "玉皇大帝",
+      "祭祀"
+    ]
+  },
+  {
+    "id": "kejia-shangdeng",
+    "name": "赏灯节",
+    "region": "kejia",
+    "calendarType": "lunar",
+    "date": {
+      "month": 1,
+      "day": 11
+    },
+    "importance": "high",
+    "customs": [
+      {
+        "title": "定做花灯",
+        "description": "添丁之家到做灯师傅处定做花灯。",
+        "preparations": [
+          "花灯（大红灯笼）"
+        ]
+      },
+      {
+        "title": "请灯接灯仪式",
+        "description": "请灯、接灯仪式。将灯笼悬挂于祖屋中厅大梁上。户主抱新生男婴向先祖神位参拜。",
+        "preparations": [
+          "三牲祭品"
+        ]
+      },
+      {
+        "title": "赏灯酒",
+        "description": "设宴请客（赏灯酒）。舞龙舞狮、放烟火。大埔百侯有“迎龙珠灯”（流传800多年）。",
+        "preparations": [
+          "酒席",
+          "鞭炮烟花",
+          "龙珠灯（大埔地区）"
+        ]
+      }
+    ],
+    "description": "客家人的元宵节不仅仅是正月十五一天，而是以十五为中心的一个周期。“灯”与“丁”谐音，上一年添丁（生男孩）的人家要在祖屋中厅悬挂大红灯笼，请亲朋好友喝酒祝贺。兴宁上灯习俗起于元代，盛于明清，已有600多年历史，为广东省级非物质文化遗产。",
+    "tags": [
+      "春节系列",
+      "赏灯",
+      "添丁",
+      "非遗"
+    ]
+  },
+  {
+    "id": "kejia-yuanxiao",
+    "name": "元宵节",
+    "region": "kejia",
+    "calendarType": "lunar",
+    "date": {
+      "month": 1,
+      "day": 15
+    },
+    "importance": "high",
+    "customs": [
+      {
+        "title": "敬神祭祖",
+        "description": "以三牲敬神祭祖，如同过年。",
+        "preparations": [
+          "三牲",
+          "花灯",
+          "灯笼",
+          "鞭炮"
+        ]
+      },
+      {
+        "title": "吃汤圆",
+        "description": "吃汤圆（元宵）。",
+        "preparations": [
+          "汤圆"
+        ]
+      },
+      {
+        "title": "闹元宵",
+        "description": "赏花灯、猜灯谜。舞龙舞狮、打锣鼓。正月十五晚上取下灯笼，意味着年过完了。有些地方放孔明灯。标旗巡游、非遗巡游等。"
+      }
+    ],
+    "description": "正月十五是传统元宵节，客家人俗称“正月半”。这一天是春节的最后高潮，过了元宵就算年过完了。客家俗语云：“饮过元宵酒，各行各业快动手”。",
+    "tags": [
+      "春节系列",
+      "元宵",
+      "花灯",
+      "汤圆"
+    ]
+  },
+  {
+    "id": "kejia-tianchuanri",
+    "name": "天穿日",
+    "region": "kejia",
+    "calendarType": "lunar",
+    "date": {
+      "month": 1,
+      "day": 20
+    },
+    "importance": "high",
+    "customs": [
+      {
+        "title": "制作补天粄",
+        "description": "制作“补天粄”（又圆又薄的煎饼/煎粄），象征以粄补天。煎炸年糕食用，寓意“年糕补天”。",
+        "preparations": [
+          "煎粄/煎饼",
+          "年糕"
+        ]
+      },
+      {
+        "title": "煮五色豆糖水",
+        "description": "用五色豆（绿豆、红豆、黑豆、眉豆、黄豆）煮糖水。",
+        "preparations": [
+          "五色豆"
+        ]
+      },
+      {
+        "title": "天穿日禁忌",
+        "description": "不耕田、不动土（怕再把天弄破）。不做针线活（传说会“刺破天空”）。不宜过度劳作，适合休息。"
+      },
+      {
+        "title": "祭祀女娲",
+        "description": "祭祀女娲神。",
+        "preparations": [
+          "香烛祭品"
+        ]
+      }
+    ],
+    "description": "天穿日是客家人独有的重要传统节日，源于女娲炼五色石补天的传说。相传正月二十是女娲补天成功之日，为感恩女娲拯救苍生，客家人世代传承此节。东晋以来即有记载。台湾地区将其定为“全台客家日”。这也是客家人认为年真正过完的日子。",
+    "tags": [
+      "客家特有",
+      "天穿日",
+      "女娲",
+      "全台客家日"
+    ]
+  },
+  {
+    "id": "kejia-touya",
+    "name": "头牙",
+    "region": "kejia",
+    "calendarType": "lunar",
+    "date": {
+      "month": 2,
+      "day": 2
+    },
+    "importance": "high",
+    "customs": [
+      {
+        "title": "祭拜伯公",
+        "description": "到伯公庙（土地庙）祭拜，摆三牲、果品祭祀，燃放鞭炮。同时拜地基主。",
+        "preparations": [
+          "三牲（鸡、猪肉、鱼）",
+          "果品",
+          "土地公金（福金）",
+          "香烛",
+          "鞭炮",
+          "酒"
+        ]
+      },
+      {
+        "title": "春社活动",
+        "description": "部分地区有“春社”活动（又称“作福”“祈福”）。商家设宴招待员工。"
+      }
+    ],
+    "description": "二月初二是福德正神（土地公/伯公）的诞辰日，也是一年中第一次“做牙”，故称“头牙”。客家人称土地公为“伯公”，是客家民间信仰中最普遍、最亲近的神明。早期客家人以务农为主，对掌管土地的伯公格外尊敬。",
+    "tags": [
+      "伯公崇拜",
+      "做牙",
+      "土地公",
+      "头牙"
+    ]
+  },
+  {
+    "id": "kejia-meiyuezuoya",
+    "name": "做牙",
+    "region": "kejia",
+    "calendarType": "lunar",
+    "date": {
+      "month": 0,
+      "day": 0
+    },
+    "importance": "medium",
+    "customs": [
+      {
+        "title": "定期祭拜伯公",
+        "description": "备牲礼祭拜伯公，烧土地公金。商家以此日犒赏员工。",
+        "preparations": [
+          "三牲或简单供品",
+          "土地公金",
+          "香烛"
+        ],
+        "timing": "农历每月初二和十六（农家则多为初一、十五）"
+      }
+    ],
+    "description": "客家商家在每月初二、十六祭拜土地公，称为“做牙”。农家则多在初一、十五拜祭。这是定期答谢土地公保佑生意兴隆或五谷丰登的习俗。",
+    "tags": [
+      "伯公崇拜",
+      "做牙",
+      "周期性"
+    ]
+  },
+  {
+    "id": "kejia-bogongdedao",
+    "name": "伯公得道日",
+    "region": "kejia",
+    "calendarType": "lunar",
+    "date": {
+      "month": 8,
+      "day": 15
+    },
+    "importance": "high",
+    "customs": [
+      {
+        "title": "还神祭典",
+        "description": "前一晚行还神祭典。",
+        "timing": "八月十四晚"
+      },
+      {
+        "title": "祭拜伯公",
+        "description": "当天准备牲礼或水果祭拜伯公，秋收感恩。",
+        "preparations": [
+          "三牲",
+          "水果",
+          "月饼",
+          "土地公金",
+          "香烛"
+        ]
+      }
+    ],
+    "description": "农历八月十五除了是中秋节，在客家信仰中也是土地公得道升天的日子。客家人将二月初二和八月十五定为土地公的两大祭祀日，二月初二为诞辰、八月十五为得道日。",
+    "tags": [
+      "伯公崇拜",
+      "土地公",
+      "秋祭"
+    ]
+  },
+  {
+    "id": "kejia-weiya",
+    "name": "尾牙",
+    "region": "kejia",
+    "calendarType": "lunar",
+    "date": {
+      "month": 12,
+      "day": 16
+    },
+    "importance": "high",
+    "customs": [
+      {
+        "title": "祭拜伯公",
+        "description": "备牲礼到伯公庙（土地庙）祭拜，祈求来年生意兴隆。",
+        "preparations": [
+          "三牲",
+          "果品",
+          "土地公金",
+          "香烛"
+        ]
+      },
+      {
+        "title": "尾牙宴",
+        "description": "商家、工厂设宴请员工吃尾牙饭。",
+        "preparations": [
+          "宴席"
+        ]
+      }
+    ],
+    "description": "一年中最后一次“做牙”，称为“尾牙”。这是答谢土地公一年来保佑的重要祭典。商家在此日设宴犒赏员工，也是现代“年终尾牙宴”的起源。",
+    "tags": [
+      "伯公崇拜",
+      "做牙",
+      "尾牙",
+      "年终"
+    ]
+  },
+  {
+    "id": "kejia-chunqiqiubao",
+    "name": "春祈秋报",
+    "region": "kejia",
+    "calendarType": "solarTerm",
+    "date": {
+      "month": 0,
+      "day": 0,
+      "solarTerm": "春社秋社"
+    },
+    "importance": "medium",
+    "customs": [
+      {
+        "title": "春社祈福",
+        "description": "在土地庙（伯公庙）集会，准备酒肉祭神，全村宴饮（社饭），演戏酬神。春社祈求风调雨顺。",
+        "preparations": [
+          "三牲",
+          "社饭",
+          "酒",
+          "香烛纸钱"
+        ],
+        "timing": "立春后第五个戊日（约农历二月初二前后）"
+      },
+      {
+        "title": "秋社感恩",
+        "description": "秋社时以新谷祭祀，感谢丰收。",
+        "preparations": [
+          "新谷（秋社）"
+        ],
+        "timing": "立秋后第五个戊日（约农历八月前后）"
+      }
+    ],
+    "description": "春祈秋报是客家地区以祭祀土地伯公为主的传统庆典活动，源于古代农耕社会“春祈丰年、秋报神恩”的传统。客家六堆地区称为“作福”“祈福”“捉福”。",
+    "tags": [
+      "伯公崇拜",
+      "春社",
+      "秋社",
+      "农耕"
+    ]
+  },
+  {
+    "id": "kejia-sanshanguowang-jinshan",
+    "name": "三山国王圣诞（巾山国王诞）",
+    "region": "kejia",
+    "calendarType": "lunar",
+    "date": {
+      "month": 2,
+      "day": 25
+    },
+    "importance": "high",
+    "customs": [
+      {
+        "title": "庙中祭拜",
+        "description": "到三山国王庙祭拜，行上香礼以及献花、献果、献爵三献古礼。",
+        "preparations": [
+          "鲜花",
+          "素果",
+          "三牲",
+          "香烛",
+          "金纸",
+          "鞭炮"
+        ]
+      },
+      {
+        "title": "演戏酬神巡游",
+        "description": "演戏酬神（演汉剧、做大戏）。巡游，抬神像出巡。"
+      }
+    ],
+    "description": "三山国王是粤东客家人（尤其潮汕、梅州、揭阳地区）最重要的守护神之一，指广东揭阳的巾山、明山、独山三座山的山神，宋太宗赵光义敕封为“国王”。三山国王信仰随客家人迁徙传播至台湾、东南亚各地。",
+    "tags": [
+      "神明崇拜",
+      "三山国王",
+      "粤东客家"
+    ]
+  },
+  {
+    "id": "kejia-sanshanguowang-mingshan",
+    "name": "明山国王诞",
+    "region": "kejia",
+    "calendarType": "lunar",
+    "date": {
+      "month": 6,
+      "day": 25
+    },
+    "importance": "medium",
+    "customs": [
+      {
+        "title": "庙中祭拜",
+        "description": "到庙中祭拜、演戏酬神。",
+        "preparations": [
+          "鲜花",
+          "果品",
+          "三牲",
+          "香烛"
+        ]
+      }
+    ],
+    "description": "三山国王中明山国王的单独诞辰日。",
+    "tags": [
+      "神明崇拜",
+      "三山国王"
+    ]
+  },
+  {
+    "id": "kejia-sanshanguowang-dushan",
+    "name": "独山国王诞",
+    "region": "kejia",
+    "calendarType": "lunar",
+    "date": {
+      "month": 9,
+      "day": 25
+    },
+    "importance": "medium",
+    "customs": [
+      {
+        "title": "庙中祭拜",
+        "description": "到庙中祭拜、演戏酬神。",
+        "preparations": [
+          "鲜花",
+          "果品",
+          "三牲",
+          "香烛"
+        ]
+      }
+    ],
+    "description": "三山国王中独山国王的单独诞辰日。",
+    "tags": [
+      "神明崇拜",
+      "三山国王"
+    ]
+  },
+  {
+    "id": "kejia-dingguanggufo",
+    "name": "定光古佛圣诞",
+    "region": "kejia",
+    "calendarType": "lunar",
+    "date": {
+      "month": 1,
+      "day": 6
+    },
+    "importance": "high",
+    "customs": [
+      {
+        "title": "礼佛祈福",
+        "description": "到定光古佛庙（如武平均庆寺、长汀等地）祭拜，焚香礼佛，诵经祈福。",
+        "preparations": [
+          "鲜花",
+          "素果",
+          "清茶",
+          "香烛"
+        ]
+      }
+    ],
+    "description": "定光古佛（934-1015），俗名郑自严，是闽西汀州客家人的精神守护神。他是后唐泉州同安县人，11岁出家，修行于闽西各地，生前有祷雨救旱、驯服野兽等神迹传说。闽西汀州有“三仙二佛”之说，其信仰遍及福建全省，并随客家移民传至台湾、东南亚。",
+    "tags": [
+      "神明崇拜",
+      "定光古佛",
+      "闽西客家",
+      "佛教"
+    ]
+  },
+  {
+    "id": "kejia-guanyindan",
+    "name": "观音诞",
+    "region": "kejia",
+    "calendarType": "lunar",
+    "date": {
+      "month": 2,
+      "day": 19
+    },
+    "importance": "medium",
+    "customs": [
+      {
+        "title": "祭拜观音",
+        "description": "到观音庙或在家中佛堂祭拜，茹素一天，诵经念佛，求子、求平安。三个日期分别纪念观音的出生（二月十九）、成道（六月十九）和出家（九月十九）。",
+        "preparations": [
+          "鲜花",
+          "素果",
+          "素斋",
+          "清茶",
+          "香烛"
+        ]
+      }
+    ],
+    "description": "观世音菩萨是客家人广泛崇拜的神明之一，客家地区几乎每个村镇都有观音庙或在家中供奉观音像。农历二月十九日（观音诞辰）、六月十九日（观音成道日）、九月十九日（观音出家日）均为祭拜日。",
+    "tags": [
+      "神明崇拜",
+      "观音",
+      "佛教"
+    ]
+  },
+  {
+    "id": "kejia-guandidan",
+    "name": "关帝诞",
+    "region": "kejia",
+    "calendarType": "lunar",
+    "date": {
+      "month": 6,
+      "day": 24
+    },
+    "importance": "medium",
+    "customs": [
+      {
+        "title": "祭拜关帝",
+        "description": "到关帝庙祭拜，商家祈求生意兴隆，演戏酬神。",
+        "preparations": [
+          "三牲",
+          "果品",
+          "香烛",
+          "金纸"
+        ]
+      }
+    ],
+    "description": "关羽被尊为武圣，客家人崇拜关公的忠义精神。客家地区关帝庙众多，商人求财运，武人求武运，读书人也拜关帝求功名。",
+    "tags": [
+      "神明崇拜",
+      "关帝",
+      "关公"
+    ]
+  },
+  {
+    "id": "kejia-mazudan",
+    "name": "妈祖诞",
+    "region": "kejia",
+    "calendarType": "lunar",
+    "date": {
+      "month": 3,
+      "day": 23
+    },
+    "importance": "medium",
+    "customs": [
+      {
+        "title": "祭拜妈祖",
+        "description": "到天后宫/妈祖庙祭拜，演戏酬神，祈求平安顺利。",
+        "preparations": [
+          "三牲",
+          "果品",
+          "鲜花",
+          "香烛",
+          "金纸"
+        ]
+      }
+    ],
+    "description": "妈祖林默娘为福建莆田人，是海上保护神。闽西客家人沿汀江而居，航运发达，对妈祖信仰深厚。龙岩长汀回龙天后宫即为汀江航道上的妈祖信仰中心。",
+    "tags": [
+      "神明崇拜",
+      "妈祖",
+      "天后",
+      "闽西客家"
+    ]
+  },
+  {
+    "id": "kejia-yiminjie",
+    "name": "义民节",
+    "region": "kejia",
+    "calendarType": "lunar",
+    "date": {
+      "month": 7,
+      "day": 20
+    },
+    "importance": "high",
+    "customs": [
+      {
+        "title": "迎请义民爷",
+        "description": "六月中开始迎请义民爷，每日三餐供奉（奉饭）。",
+        "timing": "六月中开始至七月二十日"
+      },
+      {
+        "title": "公量称猪羊",
+        "description": "七月十七日前称猪羊重量（公量）。",
+        "timing": "七月十七日前"
+      },
+      {
+        "title": "中元法会",
+        "description": "七月十八至二十日行释教科仪（中元法会），放水灯，吃糖粥。",
+        "preparations": [
+          "糖粥",
+          "水灯",
+          "香烛纸钱"
+        ],
+        "timing": "七月十八至二十日"
+      },
+      {
+        "title": "神猪神羊竞赛",
+        "description": "神猪、神羊竞赛（七月二十日当天高潮）。以猪、羊、鸡、鸭等牲礼普施孤魂。",
+        "preparations": [
+          "神猪",
+          "神羊",
+          "三牲"
+        ],
+        "timing": "七月二十日"
+      }
+    ],
+    "description": "义民节是台湾客家独有的信仰。清朝时期台湾多次民变，不少客家民众组织义军参与平乱，阵亡者被称为“义民”，清帝赐匾“褒忠”。道光十五年（1835年）起在新竹新埔褒忠义民庙举行春秋二祭。由桃园、新竹十五大庄轮值主办，是台湾北部客家最盛大的祭典。",
+    "tags": [
+      "神明崇拜",
+      "义民",
+      "台湾客家",
+      "中元"
+    ]
+  },
+  {
+    "id": "kejia-lichun",
+    "name": "立春",
+    "region": "kejia",
+    "calendarType": "solarTerm",
+    "date": {
+      "month": 0,
+      "day": 0,
+      "solarTerm": "立春"
+    },
+    "importance": "medium",
+    "customs": [
+      {
+        "title": "接春",
+        "description": "在立春时刻焚香点烛、燃放鞭炮。拜春神（祭芒神/句芒神）。贴“春”字或“迎春接福”。立春时分全家和睦，不吵架。",
+        "preparations": [
+          "春饼",
+          "香烛",
+          "鞭炮",
+          "春联"
+        ],
+        "timing": "立春时刻"
+      },
+      {
+        "title": "送春牛舞春牛",
+        "description": "吃春饼（部分地区）。“送春牛”“舞春牛”（闽西客家非遗）。"
+      }
+    ],
+    "description": "立春是二十四节气之首，客家人非常重视。客家的立春习俗古老传统，保留了周代“天子设东堂迎春”的遗风。",
+    "tags": [
+      "节气",
+      "立春",
+      "接春"
+    ]
+  },
+  {
+    "id": "kejia-kaizhengjie",
+    "name": "开正节",
+    "region": "kejia",
+    "calendarType": "lunar",
+    "date": {
+      "month": 2,
+      "day": 2
+    },
+    "importance": "high",
+    "customs": [
+      {
+        "title": "拜伯公与春耕",
+        "description": "拜伯公（详见头牙条目）。开始春耕。",
+        "preparations": [
+          "三牲祭品"
+        ]
+      },
+      {
+        "title": "吃社饭",
+        "description": "吃“社饭”。"
+      }
+    ],
+    "description": "除了是伯公生（头牙）之外，二月初二也是“龙抬头”，客家人称“开正节”，标志着春耕正式开始。",
+    "tags": [
+      "龙抬头",
+      "春耕",
+      "开正"
+    ]
+  },
+  {
+    "id": "kejia-qingming",
+    "name": "清明节",
+    "region": "kejia",
+    "calendarType": "solarTerm",
+    "date": {
+      "month": 0,
+      "day": 0,
+      "solarTerm": "清明"
+    },
+    "importance": "high",
+    "customs": [
+      {
+        "title": "祠堂祭祖",
+        "description": "先在祠堂举行隆重的祭祖仪式。",
+        "preparations": [
+          "三牲（鸡、猪肉、鱼）",
+          "果品",
+          "香",
+          "纸钱"
+        ]
+      },
+      {
+        "title": "扫墓挂纸",
+        "description": "全家族到祖先坟墓前祭拜，整修坟墓、除杂草。在墓碑上压黄纸（挂纸），坟地四周摆上十二张纸。摆放三牲、果品祭品，焚烧纸钱，燃放鞭炮。",
+        "preparations": [
+          "黄纸（挂纸用）",
+          "福金（烧给后土的）",
+          "银纸（烧给亲人的）",
+          "鞭炮",
+          "锄头"
+        ],
+        "timing": "春分后至清明期间择日"
+      },
+      {
+        "title": "食清明粄",
+        "description": "食“清明粄”（用艾草制成的粄，有辟邪祛病之意）。",
+        "preparations": [
+          "清明粄（艾粄）"
+        ]
+      }
+    ],
+    "description": "客家人极为重视祖先崇拜，但扫墓时间与汉族主流不同。梅州客家人扫墓称“挂纸”，传统上不在清明节当天，而是分为“春祭”（正月元宵后至清明前）和“秋祭”（中秋前后或重阳前后）。",
+    "tags": [
+      "祭祖",
+      "扫墓",
+      "挂纸",
+      "清明粄"
+    ]
+  },
+  {
+    "id": "kejia-sanyuesan",
+    "name": "三月三",
+    "region": "kejia",
+    "calendarType": "lunar",
+    "date": {
+      "month": 3,
+      "day": 3
+    },
+    "importance": "low",
+    "customs": [
+      {
+        "title": "踏青祭祖",
+        "description": "踏青，部分地区祭祖，采集艾草等。",
+        "preparations": [
+          "祭祖用品（如有）"
+        ]
+      }
+    ],
+    "description": "古时上巳节，有祓禊（临水祓除不祥）之俗。客家地区部分保留此节，多与祭祖、踏青相关。",
+    "tags": [
+      "上巳节",
+      "踏青"
+    ]
+  },
+  {
+    "id": "kejia-duanwu",
+    "name": "端午节",
+    "region": "kejia",
+    "calendarType": "lunar",
+    "date": {
+      "month": 5,
+      "day": 5
+    },
+    "importance": "high",
+    "customs": [
+      {
+        "title": "包粽子",
+        "description": "包粽子（客家粽子以碱水粽和咸肉粽为主）。",
+        "preparations": [
+          "粽子（糯米、猪肉、绿豆等）"
+        ]
+      },
+      {
+        "title": "挂艾草驱邪",
+        "description": "门前挂艾草、菖蒲，驱邪避瘟。饮雄黄酒或用雄黄酒涂小孩额头。小孩佩戴香囊。",
+        "preparations": [
+          "艾草",
+          "菖蒲",
+          "雄黄酒",
+          "香囊",
+          "五彩线"
+        ]
+      },
+      {
+        "title": "午时水洗澡",
+        "description": "用艾草、菖蒲、金银花等煮水洗澡（“午时水”）。",
+        "timing": "午时"
+      },
+      {
+        "title": "赛龙舟祭祖",
+        "description": "赛龙舟（有条件的地区）。祭祖。"
+      }
+    ],
+    "description": "纪念屈原。客家人称“五月节”，重视程度仅次于春节和中秋。",
+    "tags": [
+      "传统节日",
+      "端午",
+      "粽子",
+      "龙舟"
+    ]
+  },
+  {
+    "id": "kejia-liuyueliu",
+    "name": "六月六",
+    "region": "kejia",
+    "calendarType": "lunar",
+    "date": {
+      "month": 6,
+      "day": 6
+    },
+    "importance": "low",
+    "customs": [
+      {
+        "title": "晒衣物",
+        "description": "翻晒衣服、被褥、书籍。寺庙道观晒经卷。洗晒粮食。"
+      },
+      {
+        "title": "回娘家",
+        "description": "出嫁女儿回娘家（部分地区）。"
+      }
+    ],
+    "description": "民间相传这天阳光最具消毒作用，所晒物品不会起霉、不遭虫蛀。客家农谚：“六月初六晒衣物，打湿衣物不收谷”。也是传统的“回娘家节”。",
+    "tags": [
+      "晒衣节",
+      "天贶节"
+    ]
+  },
+  {
+    "id": "kejia-zhongyuan",
+    "name": "七月半",
+    "region": "kejia",
+    "calendarType": "lunar",
+    "date": {
+      "month": 7,
+      "day": 15
+    },
+    "importance": "high",
+    "customs": [
+      {
+        "title": "设祭坛祭祖",
+        "description": "在家中设祭坛祭祀祖先。夜晚“接祖先回家”，每日供奉三餐茶饭，直到“送回”。",
+        "preparations": [
+          "三牲",
+          "酒饭",
+          "香烛"
+        ]
+      },
+      {
+        "title": "焚烧纸钱",
+        "description": "焚烧纸钱、衣纸。到祖先坟前祭拜。做斋饭或丰盛菜肴祭祀。",
+        "preparations": [
+          "纸钱衣纸"
+        ]
+      },
+      {
+        "title": "放河灯普施",
+        "description": "部分地区有放河灯、烧街衣（给无主孤魂）。有些地方做“新谷粄”用新米祭祖。",
+        "preparations": [
+          "河灯（部分地区）",
+          "新米（做粄）"
+        ]
+      }
+    ],
+    "description": "中元节是客家人非常重视的祭祖节日。客家谚语：“七月十四人过节，七月十五鬼过节”，因此部分地区提前一天过节。客家人极重孝道，中元节祭祖是孝道的重要体现。这也是一年中与春节、清明并重的祭祖大节。",
+    "tags": [
+      "祭祖",
+      "中元节",
+      "鬼节"
+    ]
+  },
+  {
+    "id": "kejia-qixi",
+    "name": "七夕",
+    "region": "kejia",
+    "calendarType": "lunar",
+    "date": {
+      "month": 7,
+      "day": 7
+    },
+    "importance": "low",
+    "customs": [
+      {
+        "title": "乞巧",
+        "description": "少女乞巧（向织女祈求心灵手巧）。部分地区拜“七姐”。",
+        "preparations": [
+          "鲜花",
+          "针线",
+          "巧果（部分地区）"
+        ]
+      },
+      {
+        "title": "贺牛生日",
+        "description": "儿童采野花挂牛角（贺牛生日），感谢牛的辛劳。"
+      }
+    ],
+    "description": "牛郎织女相会之日。客家地区也有过七夕的传统，但重视程度不如中元节。部分地区有“贺牛生日”的习俗——儿童在七夕采摘野花挂在牛角上，感谢牛的辛劳。",
+    "tags": [
+      "七夕",
+      "乞巧",
+      "牛生日"
+    ]
+  },
+  {
+    "id": "kejia-zhongqiu",
+    "name": "中秋节",
+    "region": "kejia",
+    "calendarType": "lunar",
+    "date": {
+      "month": 8,
+      "day": 15
+    },
+    "importance": "high",
+    "customs": [
+      {
+        "title": "祭祖拜伯公",
+        "description": "祭祖、拜伯公。",
+        "preparations": [
+          "三牲祭品"
+        ]
+      },
+      {
+        "title": "吃月饼赏月",
+        "description": "吃月饼（客家月饼以五仁月饼为主）。赏月。吃柚子。",
+        "preparations": [
+          "月饼",
+          "柚子"
+        ]
+      },
+      {
+        "title": "烧瓦塔",
+        "description": "烧瓦塔/烧塔（梅州、赣南特有，用瓦片砌塔，塔中点火燃烧，比谁的火焰高）。",
+        "preparations": [
+          "瓦片（烧塔用）"
+        ]
+      },
+      {
+        "title": "做糍粑放孔明灯",
+        "description": "做糍粑。放孔明灯（部分地区）。",
+        "preparations": [
+          "糍粑",
+          "孔明灯"
+        ]
+      }
+    ],
+    "description": "中秋节是客家人的重要节日，与春节、端午并称三大节。同时也是伯公得道日。",
+    "tags": [
+      "传统节日",
+      "中秋",
+      "月饼",
+      "烧塔"
+    ]
+  },
+  {
+    "id": "kejia-chongyang",
+    "name": "重阳节",
+    "region": "kejia",
+    "calendarType": "lunar",
+    "date": {
+      "month": 9,
+      "day": 9
+    },
+    "importance": "high",
+    "customs": [
+      {
+        "title": "登高望远",
+        "description": "登高望远，赏菊，饮菊花酒。",
+        "preparations": [
+          "菊花酒"
+        ]
+      },
+      {
+        "title": "秋祭扫墓",
+        "description": "祭祖扫墓（秋祭），到祖先坟前祭拜。客家人有“三月小清明、重九大清明”之说。",
+        "preparations": [
+          "三牲祭品（祭祖用）"
+        ]
+      },
+      {
+        "title": "放纸鹞",
+        "description": "放纸鹞（风筝）——尤其惠州地区。",
+        "preparations": [
+          "纸鹞/风筝"
+        ]
+      },
+      {
+        "title": "吃重阳糕狗肉",
+        "description": "吃狗肉（梅州等地特有习俗）。吃重阳糕。",
+        "preparations": [
+          "重阳糕",
+          "狗肉（部分地区）"
+        ]
+      }
+    ],
+    "description": "客家人叫“九月节”，有的山村叫“兜尾节”（认为是一年中最后一个节日）。客家人极为重视重阳节的祭祖功能，有“三月小清明、重九大清明”之说，许多客家人重阳祭祖甚至比清明更为隆重。",
+    "tags": [
+      "传统节日",
+      "重阳",
+      "祭祖",
+      "登高"
+    ]
+  },
+  {
+    "id": "kejia-dongzhi",
+    "name": "冬至",
+    "region": "kejia",
+    "calendarType": "solarTerm",
+    "date": {
+      "month": 0,
+      "day": 0,
+      "solarTerm": "冬至"
+    },
+    "importance": "high",
+    "customs": [
+      {
+        "title": "杀鸡祭祖",
+        "description": "杀鸡祭祖敬神（一家团聚，称“添岁”）。全家团聚吃饭。",
+        "preparations": [
+          "三牲（以鸡为主）",
+          "祭祖用品"
+        ]
+      },
+      {
+        "title": "做萝卜粄",
+        "description": "做萝卜粄（最具客家特色的冬至食品，取合家团圆之意，又叫“冬至团”）。",
+        "preparations": [
+          "萝卜粄"
+        ]
+      },
+      {
+        "title": "煮酒吃羊肉",
+        "description": "煮酒（客家娘酒/糯米酒）。吃羊肉煮酒（梅州客家特有冬至食品）。",
+        "preparations": [
+          "糯米酒（客家娘酒）",
+          "羊肉"
+        ]
+      }
+    ],
+    "description": "客家人有“冬至大如年”“冬大过年”的说法。自冬至起天地阳气渐强，代表下一个循环开始。客家人在这一天祭祖贺冬，其隆重程度仅次于春节。",
+    "tags": [
+      "节气",
+      "冬至",
+      "祭祖",
+      "萝卜粄"
+    ]
+  },
+  {
+    "id": "kejia-laba",
+    "name": "腊八节",
+    "region": "kejia",
+    "calendarType": "lunar",
+    "date": {
+      "month": 12,
+      "day": 8
+    },
+    "importance": "low",
+    "customs": [
+      {
+        "title": "煮腊八粥",
+        "description": "煮腊八粥（用糯米、红豆、花生、红枣、莲子等）。开始准备腊味。",
+        "preparations": [
+          "腊八粥材料（糯米、红豆、花生、红枣、莲子、桂圆等）"
+        ]
+      }
+    ],
+    "description": "腊八是佛教释迦牟尼成道日，民间有喝腊八粥的习俗。客家地区也有过腊八的传统，但重视程度不如北方。",
+    "tags": [
+      "传统节日",
+      "腊八",
+      "腊八粥"
+    ]
+  },
+  {
+    "id": "kejia-siyueba",
+    "name": "四月八",
+    "region": "kejia",
+    "calendarType": "lunar",
+    "date": {
+      "month": 4,
+      "day": 8
+    },
+    "importance": "medium",
+    "customs": [
+      {
+        "title": "浴佛拜佛",
+        "description": "到佛寺烧香拜佛。",
+        "preparations": [
+          "鲜花",
+          "素果（拜佛用）"
+        ]
+      },
+      {
+        "title": "犒劳耕牛",
+        "description": "让耕牛休息一天，不得使役。给牛洗澡、喂好料。有的地方用艾叶煮水洗牛。",
+        "preparations": [
+          "好草料（犒劳牛）"
+        ]
+      }
+    ],
+    "description": "四月初八是佛祖释迦牟尼诞辰日（浴佛节），同时在客家民间也被视为“牛王诞”——牛的生日。客家人以农耕为本，牛是最重要的劳动帮手，这天要让牛休息、感恩耕牛。",
+    "tags": [
+      "浴佛节",
+      "牛王诞",
+      "农耕"
+    ]
+  },
+  {
+    "id": "kejia-bannianjie",
+    "name": "半年节",
+    "region": "kejia",
+    "calendarType": "lunar",
+    "date": {
+      "month": 6,
+      "day": 16
+    },
+    "importance": "medium",
+    "customs": [
+      {
+        "title": "祭拜伯公",
+        "description": "到伯公庙祭拜，商家设小宴。",
+        "preparations": [
+          "三牲",
+          "果品",
+          "土地公金",
+          "香烛"
+        ]
+      }
+    ],
+    "description": "六月十六是一年过半的“做牙”日，称“半年牙”。商家会做较为隆重的祭拜，感谢上半年伯公的保佑，祈求下半年继续顺利。",
+    "tags": [
+      "伯公崇拜",
+      "做牙",
+      "半年牙"
+    ]
+  },
+  {
+    "id": "kejia-guoxiaonian",
+    "name": "过小年",
+    "region": "kejia",
+    "calendarType": "lunar",
+    "date": {
+      "month": 12,
+      "day": 23
+    },
+    "importance": "medium",
+    "customs": [
+      {
+        "title": "祭灶团聚",
+        "description": "祭灶（详见送灶神条目）。全家团聚吃饭。部分地区杀鸡祭祀。"
+      }
+    ],
+    "description": "在客家地区，送灶日即是小年，标志着正式进入年节准备期。",
+    "tags": [
+      "春节系列",
+      "小年",
+      "祭灶"
+    ]
+  },
+  {
+    "id": "kejia-lichunniu",
+    "name": "闽西客家春耕习俗",
+    "region": "kejia",
+    "calendarType": "solarTerm",
+    "date": {
+      "month": 0,
+      "day": 0,
+      "solarTerm": "立春"
+    },
+    "importance": "medium",
+    "customs": [
+      {
+        "title": "犁春牛",
+        "description": "立春日，用纸扎或泥塑的春牛在村中巡游。",
+        "preparations": [
+          "纸扎春牛"
+        ],
+        "timing": "立春日"
+      },
+      {
+        "title": "闹春田",
+        "description": "春耕开始时，村民在田中举行热闹的仪式。",
+        "preparations": [
+          "锣鼓"
+        ],
+        "timing": "春耕开始时"
+      },
+      {
+        "title": "保苗祭",
+        "description": "秧苗插下后祭拜神明保佑丰收。",
+        "preparations": [
+          "祭品"
+        ],
+        "timing": "秧苗插下后"
+      }
+    ],
+    "description": "闽西客家春耕习俗是福建省非物质文化遗产，包括犁春牛、闹春田和保苗祭三部分，是农耕文明的典型表现形式。",
+    "tags": [
+      "闽西客家",
+      "非遗",
+      "农耕",
+      "春耕"
+    ]
+  },
+  {
+    "id": "kejia-xingningshangdeng",
+    "name": "兴宁赏灯",
+    "region": "kejia",
+    "calendarType": "lunar",
+    "date": {
+      "month": 1,
+      "day": 8
+    },
+    "importance": "high",
+    "customs": [
+      {
+        "title": "定做花灯",
+        "description": "上一年添丁的家庭定做花灯，将花灯挂在祖屋中厅大梁上。",
+        "preparations": [
+          "花灯（各式精美客家花灯）"
+        ]
+      },
+      {
+        "title": "大宴亲朋",
+        "description": "大宴亲朋。",
+        "preparations": [
+          "酒席"
+        ]
+      },
+      {
+        "title": "庆祝活动",
+        "description": "舞龙、舞狮、打锣鼓。放烟花。唱山歌。",
+        "preparations": [
+          "鞭炮烟花"
+        ]
+      }
+    ],
+    "description": "兴宁赏灯习俗起于元代，盛于明清，历经600多年，是广东省级非物质文化遗产。“灯”谐音“丁”，赏灯即“庆丁”——庆祝家族添丁。各姓氏赏灯日期不同，每天都有不同姓氏在举行赏灯活动。从正月初八至正月十九。",
+    "tags": [
+      "非遗",
+      "赏灯",
+      "添丁",
+      "兴宁"
+    ]
+  },
+  {
+    "id": "kejia-yinglongzhudeng",
+    "name": "迎龙珠灯",
+    "region": "kejia",
+    "calendarType": "lunar",
+    "date": {
+      "month": 1,
+      "day": 15
+    },
+    "importance": "high",
+    "customs": [
+      {
+        "title": "组织龙珠灯队",
+        "description": "各村各堂组织龙珠灯队。每条龙珠灯超过一百个灯笼。",
+        "preparations": [
+          "龙珠灯（百余个灯笼组成）",
+          "锣鼓乐器"
+        ]
+      },
+      {
+        "title": "沿村巡游",
+        "description": "沿村巡游，配合醒狮、汉乐表演。"
+      }
+    ],
+    "description": "大埔县百侯侯北村流传800多年的独有民俗活动，全国唯一。每条龙珠灯超过一百个灯笼，配合醒狮、汉乐等，场面壮观。",
+    "tags": [
+      "非遗",
+      "龙珠灯",
+      "大埔",
+      "元宵"
+    ]
+  },
+  {
+    "id": "kejia-shaota",
+    "name": "烧瓦塔",
+    "region": "kejia",
+    "calendarType": "lunar",
+    "date": {
+      "month": 8,
+      "day": 15
+    },
+    "importance": "medium",
+    "customs": [
+      {
+        "title": "砌塔",
+        "description": "提前收集瓦片，砌成塔状。",
+        "preparations": [
+          "瓦片",
+          "稻草",
+          "木柴",
+          "盐（撒入火中噼啪作响增添气氛）"
+        ],
+        "timing": "中秋节前准备"
+      },
+      {
+        "title": "烧塔竞赛",
+        "description": "中秋夜点火烧塔，各村比赛火焰高度，围观欢庆。",
+        "timing": "中秋夜"
+      }
+    ],
+    "description": "烧塔是梅州、赣南客家人中秋节特有的民俗活动。用瓦片砌成高塔，塔中塞入稻草和木柴点火燃烧，各村比赛谁的火焰最高最旺。据传起源于元末农民起义时以烧塔为信号的传说。",
+    "tags": [
+      "中秋",
+      "烧塔",
+      "梅州",
+      "赣南"
+    ]
+  }
+]

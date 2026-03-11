@@ -1,0 +1,1528 @@
+[
+  {
+    "id": "minnan-chuxi",
+    "name": "除夕",
+    "region": "minnan",
+    "calendarType": "lunar",
+    "date": { "month": 12, "day": 30 },
+    "importance": "high",
+    "customs": [
+      {
+        "title": "祭祖（辞年）",
+        "description": "下午在正厅摆供品祭拜祖先，感谢一年庇佑",
+        "preparations": ["三牲或五牲", "酒", "饭菜", "水果", "金纸"],
+        "timing": "下午"
+      },
+      {
+        "title": "围炉",
+        "description": "全家团聚吃年夜饭，菜品寓意吉祥。闽南人称年夜饭为'围炉'，因旧时一家人围着一个小红炉而坐",
+        "preparations": ["长年菜（芥菜，寓意长寿）", "韭菜（寓意久久长长）", "萝卜（闽南语'菜头'，好彩头）", "鱼（年年有余）", "鸡卷（金玉满堂）", "血蚶（开金库）", "润饼菜（泉州特色）"],
+        "timing": "晚上"
+      },
+      {
+        "title": "守岁",
+        "description": "通宵不睡，为长辈添寿",
+        "timing": "通宵"
+      },
+      {
+        "title": "发压岁钱",
+        "description": "长辈给小辈红包"
+      },
+      {
+        "title": "贴春联",
+        "description": "门上贴红色春联，门楣贴'春'字"
+      }
+    ],
+    "description": "辞旧迎新，一年之终。闽南人极重除夕团圆，称年夜饭为'围炉'，因旧时一家人围着一个小红炉而坐。",
+    "tags": ["春节", "团圆", "祭祖", "围炉"]
+  },
+  {
+    "id": "minnan-chunjie",
+    "name": "春节·正月初一",
+    "region": "minnan",
+    "calendarType": "lunar",
+    "date": { "month": 1, "day": 1 },
+    "importance": "high",
+    "customs": [
+      {
+        "title": "开正",
+        "description": "凌晨焚香放鞭炮迎新年",
+        "timing": "凌晨"
+      },
+      {
+        "title": "穿新衣拜年",
+        "description": "穿新衣出门拜年"
+      },
+      {
+        "title": "吃甜食",
+        "description": "吃线面、红枣、桂圆汤，寓意长寿甜蜜",
+        "preparations": ["甜料（红枣、桂圆、冰糖）", "线面（寿面）"]
+      },
+      {
+        "title": "祭拜祖先和神明",
+        "description": "祭拜祖先和神明",
+        "preparations": ["香烛", "金纸", "红包"]
+      },
+      {
+        "title": "新年禁忌",
+        "description": "忌扫地（怕扫走财气）、忌说不吉利的话"
+      }
+    ],
+    "description": "一年之始，闽南人称'新正'或'过年'。正月初一敬天地祖先，祈求新年平安吉祥。",
+    "tags": ["春节", "开正", "拜年"]
+  },
+  {
+    "id": "minnan-chuer-nvxuri",
+    "name": "正月初二·女婿日",
+    "region": "minnan",
+    "calendarType": "lunar",
+    "date": { "month": 1, "day": 2 },
+    "importance": "medium",
+    "customs": [
+      {
+        "title": "回娘家",
+        "description": "已婚女儿携夫婿、小孩回娘家拜年",
+        "preparations": ["回娘家礼物"]
+      },
+      {
+        "title": "做牙",
+        "description": "新年第一次做牙，祭拜土地公",
+        "preparations": ["土地公祭品"]
+      }
+    ],
+    "description": "出嫁女儿回娘家（'做客'）的日子。也是新年第一次做牙（拜土地公）。",
+    "tags": ["春节", "回娘家", "做牙"]
+  },
+  {
+    "id": "minnan-jieshen",
+    "name": "正月初四·接神日",
+    "region": "minnan",
+    "calendarType": "lunar",
+    "date": { "month": 1, "day": 4 },
+    "importance": "high",
+    "customs": [
+      {
+        "title": "接神祭拜",
+        "description": "下午三点后至晚间祭拜，迎接诸神回归人间。在神明厅或厨房灶前设供桌",
+        "preparations": ["三牲（猪肉、鸡、鱼）", "四果（四种时令水果）", "清茶三杯", "酒", "甜品（年糕、发糕、糖果）", "寿金", "刈金", "甲马（纸钱）", "鲜花一对"],
+        "timing": "下午三点后至晚间"
+      },
+      {
+        "title": "焚香放鞭炮",
+        "description": "焚香、烧金纸、放鞭炮迎神"
+      }
+    ],
+    "description": "腊月廿四送神上天汇报后，正月初四诸神返回人间。民间有'送神早，接神晚'之说，送神要清早，接神在下午。",
+    "tags": ["春节", "接神", "神明"]
+  },
+  {
+    "id": "minnan-gekai",
+    "name": "正月初五·隔开",
+    "region": "minnan",
+    "calendarType": "lunar",
+    "date": { "month": 1, "day": 5 },
+    "importance": "medium",
+    "customs": [
+      {
+        "title": "拜五路财神",
+        "description": "拜五路财神，祈求财运",
+        "preparations": ["三牲", "水果", "金纸"]
+      },
+      {
+        "title": "商铺开市",
+        "description": "商铺开门营业，放鞭炮",
+        "preparations": ["鞭炮"]
+      },
+      {
+        "title": "打扫清理",
+        "description": "可以开始扫地清理（年前至初五忌扫地）"
+      }
+    ],
+    "description": "'初五隔开'，表示新年节庆告一段落。迎财神，商家开市。",
+    "tags": ["春节", "财神", "开市"]
+  },
+  {
+    "id": "minnan-tiangongsheng",
+    "name": "正月初九·天公生",
+    "region": "minnan",
+    "calendarType": "lunar",
+    "date": { "month": 1, "day": 9 },
+    "importance": "high",
+    "customs": [
+      {
+        "title": "拜天公",
+        "description": "初八深夜23时（子时）起开始祭拜，至初九清晨完成。在正厅或庭院设天公桌（分顶桌、下桌）",
+        "preparations": ["顶桌（全素）：鲜花一对、蜡烛一对、清茶三杯或五杯、五果、六斋或十二斋、面线塔、红圆、发糕、红龟粿", "下桌（可荤）：五牲（全鸡、全鸭、全鱼、猪肉、其他）、酒、红龟粿、面线", "甘蔗两根（带根带叶，架于供桌两侧）", "天公金、寿金、大百寿金、金纸", "长鞭炮"],
+        "timing": "初八深夜子时起至初九清晨"
+      },
+      {
+        "title": "沐浴斋戒",
+        "description": "全家提前沐浴更衣、斋戒",
+        "timing": "拜天公前"
+      },
+      {
+        "title": "三跪九叩",
+        "description": "全家依长幼顺序三跪九叩"
+      },
+      {
+        "title": "烧天公金放鞭炮",
+        "description": "烧天公金、放长鞭炮"
+      }
+    ],
+    "description": "正月初九是玉皇大帝（天公）的诞辰。闽南民间传说，明朝倭寇入侵时，百姓躲入甘蔗林避难，至正月初九脱险，认为是天公保佑。闽南人谚云：'天公生，大过年。'重要性甚至超过除夕。",
+    "tags": ["春节", "天公", "玉皇大帝", "祭祀"]
+  },
+  {
+    "id": "minnan-yuanxiao",
+    "name": "元宵节（上元节）",
+    "region": "minnan",
+    "calendarType": "lunar",
+    "date": { "month": 1, "day": 15 },
+    "importance": "high",
+    "customs": [
+      {
+        "title": "吃元宵丸",
+        "description": "泉州特色元宵丸以花生仁、白糖、芝麻、蜜冬瓜为馅，滚糯米粉制成",
+        "preparations": ["元宵丸", "润饼菜"]
+      },
+      {
+        "title": "闹花灯",
+        "description": "赏花灯、挂花灯（泉州无骨灯、料丝灯闻名）",
+        "preparations": ["花灯"]
+      },
+      {
+        "title": "猜灯谜",
+        "description": "猜灯谜"
+      },
+      {
+        "title": "听香",
+        "description": "闽南独特祈福习俗——在神明面前焚香祈愿，然后走出门外，以听到的第一句话来占卜吉凶"
+      },
+      {
+        "title": "踩街/妆阁",
+        "description": "化妆游行，扮演各种故事人物巡街表演"
+      },
+      {
+        "title": "敬公（祭祖）",
+        "description": "前一年家中添丁者需制作'丁瓯'到祖祠祭祀",
+        "preparations": ["祭祖供品：三牲、水果、金纸", "丁瓯（添丁人家准备）"]
+      },
+      {
+        "title": "攻炮城",
+        "description": "攻炮城活动"
+      },
+      {
+        "title": "拜上元天官大帝",
+        "description": "拜上元天官大帝，祈福赐福"
+      }
+    ],
+    "description": "上元天官大帝诞辰，也是春节系列活动的压轴。泉州元宵闹花灯的历史可追溯至唐代，被列为国家级非物质文化遗产。泉州有'小上元、大十五'之说，元宵比中秋还热闹。",
+    "tags": ["元宵", "花灯", "听香", "非遗"]
+  },
+  {
+    "id": "minnan-touya",
+    "name": "头牙",
+    "region": "minnan",
+    "calendarType": "lunar",
+    "date": { "month": 2, "day": 2 },
+    "importance": "high",
+    "customs": [
+      {
+        "title": "祭拜土地公",
+        "description": "隆重祭拜土地公，比平常做牙更丰盛",
+        "preparations": ["三牲（鸡、猪肉、鱼）", "水果", "酒", "寿金、刈金、土地公金", "发糕、红龟粿"]
+      },
+      {
+        "title": "宴请客户",
+        "description": "商家宴请客户、合作伙伴"
+      },
+      {
+        "title": "牙祭餐食",
+        "description": "准备丰盛牙祭餐食"
+      },
+      {
+        "title": "祈求兴隆",
+        "description": "祈求一年生意兴隆、五谷丰登"
+      }
+    ],
+    "description": "二月初二为土地公（福德正神）诞辰，也是一年'做牙'的开始，称为'头牙'。'牙'源于古代'牙行'每月朔望日祭拜财神的习俗。闽南谚语：'头牙请主顾，尾牙请脱裤'。",
+    "tags": ["做牙", "土地公", "商业", "头牙"]
+  },
+  {
+    "id": "minnan-shangsi",
+    "name": "三月初三·上巳节/三日节",
+    "region": "minnan",
+    "calendarType": "lunar",
+    "date": { "month": 3, "day": 3 },
+    "importance": "medium",
+    "customs": [
+      {
+        "title": "祭祖扫墓",
+        "description": "祭祖、扫墓（尤其漳州人）",
+        "preparations": ["祭祖供品：三牲、粿类、纸钱"]
+      },
+      {
+        "title": "踏青",
+        "description": "踏青出游"
+      },
+      {
+        "title": "吃润饼菜",
+        "description": "吃润饼菜",
+        "preparations": ["润饼菜"]
+      }
+    ],
+    "description": "古称上巳节，闽南漳州人称'三日节'。闽南地区将此日视为祭祖扫墓的日子（与清明节前后呼应），漳州籍移民尤重此俗。",
+    "tags": ["祭祖", "扫墓", "漳州"]
+  },
+  {
+    "id": "minnan-qingming",
+    "name": "清明节（三月节）",
+    "region": "minnan",
+    "calendarType": "solarTerm",
+    "date": { "month": 0, "day": 0, "solarTerm": "清明" },
+    "importance": "high",
+    "customs": [
+      {
+        "title": "培墓",
+        "description": "清理坟墓周围杂草灌木、培土、用红漆描碑文",
+        "preparations": ["锄头、镰刀（整理坟墓用）", "红漆（描碑文用）"]
+      },
+      {
+        "title": "献纸钱",
+        "description": "在坟墓上用小石头压上墓纸，表示已祭扫",
+        "preparations": ["墓纸（白色或五色纸）"]
+      },
+      {
+        "title": "上供祭拜",
+        "description": "上供果、点香烛、烧金纸、放鞭炮",
+        "preparations": ["三牲或五牲", "粿类（甜粿、菜粿、清明粿）", "香烛、金纸、鞭炮"]
+      },
+      {
+        "title": "吃润饼菜",
+        "description": "闽南清明最具特色食俗，薄面皮卷入胡萝卜丝、肉丝、蛋丝、豆干、海苔、蚵煎等，撒花生碎、浒苔",
+        "preparations": ["润饼皮及各种馅料"]
+      },
+      {
+        "title": "哭墓",
+        "description": "晋江深沪一带有妇人'哭墓'的习俗"
+      },
+      {
+        "title": "蒸清明粿",
+        "description": "蒸'清明粿'"
+      }
+    ],
+    "description": "闽南清明与冬至合称'春冬二祭'，是最重要的祭祖时节。清明扫墓称'培墓'或'上墓'。泉州地区扫墓不限清明当日，前后十天内均可。新筑之墓需连续三年在清明前后择吉日祭祀。",
+    "tags": ["祭祖", "扫墓", "培墓", "润饼菜", "节气"]
+  },
+  {
+    "id": "minnan-duanwu",
+    "name": "端午节",
+    "region": "minnan",
+    "calendarType": "lunar",
+    "date": { "month": 5, "day": 5 },
+    "importance": "high",
+    "customs": [
+      {
+        "title": "包粽子",
+        "description": "闽南烧肉粽，糯米裹猪肉、香菇、虾仁、栗子、蛋黄等，用竹叶包裹",
+        "preparations": ["糯米", "猪肉", "香菇", "栗子", "蛋黄", "竹叶"]
+      },
+      {
+        "title": "嗦啰嗹（采莲）",
+        "description": "泉州晋江安海镇特有习俗，有800多年历史。一队人举着缚有榕枝艾草的采莲旗，抬着龙王头，一路踏舞高唱'嗦啰嗹'采莲歌，挨家挨户巡行禳灾驱邪。被列入国家级非遗。"
+      },
+      {
+        "title": "水上捉鸭（掠鸭）",
+        "description": "安海端午特有竞技。在船或桥上沿水面平行放置一根涂了油脂的长杉木，参赛者赤足走到末端打开鸭笼取鸭后跃入水中。相传源于郑成功训练水师。"
+      },
+      {
+        "title": "海上泼水节",
+        "description": "石狮蚶江端午特色，至今有200多年历史，入选国家级非遗。海上船只互相泼水嬉戏，源于闽台对渡文化。"
+      },
+      {
+        "title": "赛龙舟",
+        "description": "各地江河均有龙舟竞渡"
+      },
+      {
+        "title": "煎堆补天",
+        "description": "泉州独特食俗，用面粉和鸡蛋煎成饼，称'煎堆'，民间有'煎堆，可以补天'之说（端午前正是梅雨季）",
+        "preparations": ["面粉", "鸡蛋"]
+      },
+      {
+        "title": "午时水",
+        "description": "正午时分打的水称'午时水'，被认为有辟邪驱毒功效",
+        "timing": "正午"
+      },
+      {
+        "title": "佩戴五色丝线",
+        "description": "给小孩佩戴五色丝线（长命缕）系于手臂",
+        "preparations": ["五色丝线"]
+      },
+      {
+        "title": "佩戴香袋",
+        "description": "给小孩佩戴香袋",
+        "preparations": ["香袋"]
+      },
+      {
+        "title": "挂艾草菖蒲榕枝",
+        "description": "门上挂艾草、菖蒲、榕枝驱邪",
+        "preparations": ["艾草", "菖蒲", "榕枝"]
+      },
+      {
+        "title": "攻炮城",
+        "description": "安海、石狮等地攻炮城活动"
+      }
+    ],
+    "description": "闽南端午既有中原传统纪念屈原的习俗，又融合了大量地方特色。泉州端午有三大类活动：一是家庭祭祀类，二是个人辟邪类，三是社区竞技娱乐类。其中'嗦啰嗹'、水上捉鸭、海上泼水均为国家级或省级非遗。",
+    "tags": ["端午", "粽子", "嗦啰嗹", "非遗", "龙舟"]
+  },
+  {
+    "id": "minnan-qixi",
+    "name": "七夕·七娘妈生",
+    "region": "minnan",
+    "calendarType": "lunar",
+    "date": { "month": 7, "day": 7 },
+    "importance": "high",
+    "customs": [
+      {
+        "title": "拜七娘妈",
+        "description": "在门口或阳台设供桌祭拜七娘妈（七星娘娘/织女），七娘妈被视为儿童的守护神",
+        "preparations": ["糖粿", "七娘妈亭（纸糊）", "胭脂水粉、花粉", "鲜花（七种颜色的花）", "水果七种", "牲醴", "圆仔（汤圆）", "金纸、香烛"]
+      },
+      {
+        "title": "新契",
+        "description": "婴儿出生后第一个七夕，拜七娘妈为契母（干妈）"
+      },
+      {
+        "title": "做十六岁（洗契）",
+        "description": "泉州鲤城特有成人礼。年满十六岁的青少年在七夕当日：在七娘妈神位前焚香祭拜、钻过七娘妈亭、由长辈脱去项上的'络仔索'（认契时系上的红丝线）、烧七娘妈亭和金纸、宴请亲友",
+        "preparations": ["七娘妈亭", "络仔索/红丝线"]
+      },
+      {
+        "title": "吃糖粿",
+        "description": "七夕应节食品，用糯米搓成小圆子压出凹坑煮食，凹坑象征盛放织女的眼泪",
+        "preparations": ["糖粿"]
+      },
+      {
+        "title": "烧七娘妈轿/七娘妈亭",
+        "description": "精美的纸糊小亭，祭拜后焚烧"
+      }
+    ],
+    "description": "闽南七夕不以牛郎织女爱情为主题，而是祭拜'七娘妈'（七星娘娘/织女）。七娘妈被视为儿童的守护神。小孩出生后第一个七夕要拜七娘妈为'契母'，十六岁那年七夕要'洗契'，举行隆重的'做十六岁'成人礼。",
+    "tags": ["七夕", "七娘妈", "成人礼", "做十六岁"]
+  },
+  {
+    "id": "minnan-zhongyuan",
+    "name": "中元节/普渡",
+    "region": "minnan",
+    "calendarType": "lunar",
+    "date": { "month": 7, "day": 15 },
+    "importance": "high",
+    "customs": [
+      {
+        "title": "开龛门",
+        "description": "七月初一普渡月开始，传说鬼门大开",
+        "timing": "七月初一"
+      },
+      {
+        "title": "各铺境轮流普渡",
+        "description": "整个七月各铺境（社区/村落）轮流普渡，称为'正普'。泉州城内38个铺轮流举行，从六月廿九到八月初二"
+      },
+      {
+        "title": "普渡祭拜",
+        "description": "在家门口摆八仙桌，供奉祭品",
+        "preparations": ["三牲（鸡鸭猪）", "蔬菜、水果、干果", "饭菜碗若干", "干粮、罐头、白米、饮料", "香烛、金纸银纸", "普渡公金、大百寿金、福金、甲馬、更衣", "纸制衣物、纸钱", "水灯"]
+      },
+      {
+        "title": "拜普渡公（面燃大士）",
+        "description": "普渡公为观音化身，镇守孤魂"
+      },
+      {
+        "title": "诵经做法事",
+        "description": "请道士/法师诵经做法事"
+      },
+      {
+        "title": "放水灯",
+        "description": "引导水中孤魂来享祭",
+        "preparations": ["水灯"]
+      },
+      {
+        "title": "关龛门",
+        "description": "七月三十普渡月结束",
+        "timing": "七月三十"
+      },
+      {
+        "title": "普渡宴",
+        "description": "祭拜后邀请亲友聚餐"
+      }
+    ],
+    "description": "中元节融合道教中元节和佛教盂兰盆会。闽南地区的中元普渡极具特色——不是只过七月十五一天，而是整个七月各铺境轮流普渡。此制度源于元代泉州基层'铺境'划分。闽南谚语：'有钱无钱，凑做普渡边。'",
+    "tags": ["中元", "普渡", "祭祀", "好兄弟"]
+  },
+  {
+    "id": "minnan-zhongqiu",
+    "name": "中秋节",
+    "region": "minnan",
+    "calendarType": "lunar",
+    "date": { "month": 8, "day": 15 },
+    "importance": "high",
+    "customs": [
+      {
+        "title": "博饼",
+        "description": "最具闽南特色的中秋活动。每会63块饼，以六个骰子轮流投掷，博取状元、榜眼、探花、进士、举人、秀才六个等第。博中状元者据说一年运气特别好。2008年被列为国家级非遗。",
+        "preparations": ["六个骰子", "一个大碗", "63块饼（状元饼1个、对堂2个、三红4个、四进8个、二举16个、一秀32个）"]
+      },
+      {
+        "title": "拜月娘",
+        "description": "中秋夜妇女和小孩祭拜月亮，称月亮为'月娘妈'或'太阴娘'。有'男不圆月，女不祭灶'之说",
+        "preparations": ["月饼", "柚子", "芋头", "水果（柑橘、柿子、杨桃、石榴等）", "鲜花", "香烛"],
+        "timing": "中秋夜"
+      },
+      {
+        "title": "赏月",
+        "description": "旧时有泛舟笋江赏月之俗",
+        "timing": "晚上"
+      },
+      {
+        "title": "吃月饼",
+        "description": "传说元末泉州人在月饼中夹纸条传递起义信息"
+      },
+      {
+        "title": "烧塔仔",
+        "description": "用砖头、瓦片搭塔燃烧，源于元末明初闽南抗元信号",
+        "preparations": ["砖瓦片"]
+      },
+      {
+        "title": "吃芋头",
+        "description": "芋头谐音'余头'，寓意有余"
+      }
+    ],
+    "description": "闽南中秋有'博饼'和'拜月娘'两大独特习俗。博饼相传由郑成功驻军厦门时部将洪旭设计，为淡化士兵的乡愁。2008年中秋博饼被列为国家级非遗。",
+    "tags": ["中秋", "博饼", "拜月娘", "非遗"]
+  },
+  {
+    "id": "minnan-chongyang",
+    "name": "重阳节",
+    "region": "minnan",
+    "calendarType": "lunar",
+    "date": { "month": 9, "day": 9 },
+    "importance": "medium",
+    "customs": [
+      {
+        "title": "补重阳",
+        "description": "泉州人用家禽肉炖当归、川芎、党参等中药滋补身体",
+        "preparations": ["家禽肉（鸡、鸭）", "中药材（当归、川芎、党参）"]
+      },
+      {
+        "title": "登高望远",
+        "description": "登高望远"
+      },
+      {
+        "title": "放风筝",
+        "description": "闽南重阳有放风筝的习俗（南方季风渐强，风力适中）",
+        "preparations": ["风筝"]
+      },
+      {
+        "title": "吃重阳糕",
+        "description": "吃重阳糕",
+        "preparations": ["重阳糕"]
+      },
+      {
+        "title": "赏菊饮酒",
+        "description": "赏菊花、饮菊花酒",
+        "preparations": ["菊花酒"]
+      },
+      {
+        "title": "敬老",
+        "description": "探望长辈"
+      },
+      {
+        "title": "进补炖食",
+        "description": "漳州诏安一带杀鸡宰鸭配中药炖食，漳州人重阳吃柚子",
+        "preparations": ["番薯、芋头、柿子、栗子等时令果品"]
+      }
+    ],
+    "description": "九月九，两阳相重。闽南重阳重'补'而非'登高'，泉州有'补重阳'之说，认为重阳是全年中进补的最佳日子。",
+    "tags": ["重阳", "补重阳", "敬老", "登高"]
+  },
+  {
+    "id": "minnan-weiya",
+    "name": "尾牙",
+    "region": "minnan",
+    "calendarType": "lunar",
+    "date": { "month": 12, "day": 16 },
+    "importance": "high",
+    "customs": [
+      {
+        "title": "祭拜土地公",
+        "description": "隆重祭拜土地公，供品比平时做牙更丰盛",
+        "preparations": ["五牲（全鸡、全鸭、猪肉、鱼、其他）", "水果", "酒", "寿金、刈金、土地公金"]
+      },
+      {
+        "title": "尾牙宴",
+        "description": "商家办尾牙宴，宴请全体员工。旧时有鸡头朝向谁谁被辞退的习俗，现已淡化"
+      },
+      {
+        "title": "发年终奖金",
+        "description": "发年终奖金/红包"
+      },
+      {
+        "title": "抽奖活动",
+        "description": "现代尾牙常见的抽奖活动"
+      },
+      {
+        "title": "吃润饼和刈包",
+        "description": "泉州尾牙也吃润饼，吃刈包（'虎咬猪'，寓意来年如虎添翼）",
+        "preparations": ["润饼菜", "刈包"]
+      }
+    ],
+    "description": "一年'做牙'的最后一次，称为'尾牙'。这是闽南商业文化的重要体现，老板在这天大摆'尾牙宴'宴请员工，感谢一年辛劳。旧时有鸡头朝向谁谁来年就被辞退的习俗。",
+    "tags": ["做牙", "尾牙", "土地公", "商业"]
+  },
+  {
+    "id": "minnan-songshen",
+    "name": "送神日",
+    "region": "minnan",
+    "calendarType": "lunar",
+    "date": { "month": 12, "day": 24 },
+    "importance": "high",
+    "customs": [
+      {
+        "title": "祭灶/送灶神",
+        "description": "清晨祭拜灶神，恭送上天。用甜食贿赂灶神，让他'上天言好事，下界保平安'",
+        "preparations": ["汤圆/圆仔", "麦芽糖、糖果", "甜粿、发糕", "清茶三杯", "甲马（纸制盔甲和马匹）", "寿金、刈金"],
+        "timing": "清晨"
+      },
+      {
+        "title": "筅尘（大扫除）",
+        "description": "送神后彻底清扫家宅、神龛、家具，清除积尘晦气，除陈布新",
+        "preparations": ["扫除工具"]
+      },
+      {
+        "title": "炊粿备年食",
+        "description": "蒸甜粿、发糕等年糕类食品"
+      },
+      {
+        "title": "清理神龛",
+        "description": "送神后至接神前（初四），可以搬动神像、清理神龛（平时不可随意移动）"
+      }
+    ],
+    "description": "传说这一天灶神及家中所供奉的诸神要回到天庭向玉皇大帝汇报人间善恶。民间要用甜食贿赂灶神。从此日起至除夕为'迎春日'，正式进入过年倒计时。",
+    "tags": ["送神", "灶神", "大扫除", "过年"]
+  },
+  {
+    "id": "minnan-chuxi-qian",
+    "name": "除夕前·年前准备",
+    "region": "minnan",
+    "calendarType": "lunar",
+    "date": { "month": 12, "day": 25 },
+    "importance": "high",
+    "customs": [
+      {
+        "title": "蒸年糕",
+        "description": "蒸甜粿、菜头粿、发糕"
+      },
+      {
+        "title": "采购年货",
+        "description": "采购年货"
+      },
+      {
+        "title": "贴春联门神",
+        "description": "贴春联、门神"
+      },
+      {
+        "title": "准备围炉菜肴",
+        "description": "准备围炉菜肴"
+      }
+    ],
+    "description": "农历十二月廿五至三十，进行除夕前的各项准备工作。",
+    "tags": ["过年", "准备", "年货"]
+  },
+  {
+    "id": "minnan-yuanshi-tianzun",
+    "name": "元始天尊万寿·弥勒佛佛诞",
+    "region": "minnan",
+    "calendarType": "lunar",
+    "date": { "month": 1, "day": 1 },
+    "importance": "medium",
+    "customs": [
+      {
+        "title": "道观佛寺祭拜",
+        "description": "各道观、佛寺祭拜元始天尊和弥勒佛"
+      }
+    ],
+    "description": "正月初一是元始天尊万寿和弥勒佛佛诞。",
+    "tags": ["神明诞辰", "道教", "佛教"]
+  },
+  {
+    "id": "minnan-qingshui-zushi",
+    "name": "清水祖师诞辰",
+    "region": "minnan",
+    "calendarType": "lunar",
+    "date": { "month": 1, "day": 6 },
+    "importance": "high",
+    "customs": [
+      {
+        "title": "庙会祭拜",
+        "description": "安溪清水岩祖师庙盛大庙会",
+        "preparations": ["三牲", "水果", "香烛", "金纸"]
+      }
+    ],
+    "description": "清水祖师（陈普足）是安溪人最重要的守护神，正月初六为其诞辰，安溪清水岩为祖庙。",
+    "tags": ["神明诞辰", "清水祖师", "安溪", "庙会"]
+  },
+  {
+    "id": "minnan-guandi-feisheng",
+    "name": "关圣帝君飞升",
+    "region": "minnan",
+    "calendarType": "lunar",
+    "date": { "month": 1, "day": 13 },
+    "importance": "medium",
+    "customs": [
+      {
+        "title": "关帝庙祭拜",
+        "description": "前往关帝庙祭拜关圣帝君"
+      }
+    ],
+    "description": "正月十三为关圣帝君飞升之日。",
+    "tags": ["神明诞辰", "关帝"]
+  },
+  {
+    "id": "minnan-wenchang",
+    "name": "文昌帝君诞辰",
+    "region": "minnan",
+    "calendarType": "lunar",
+    "date": { "month": 2, "day": 3 },
+    "importance": "medium",
+    "customs": [
+      {
+        "title": "学子祭拜",
+        "description": "学子祭拜文昌帝君求功名",
+        "preparations": ["香烛", "水果", "金纸"]
+      }
+    ],
+    "description": "二月初三为文昌帝君诞辰，学子祭拜求功名。",
+    "tags": ["神明诞辰", "文昌帝君", "功名"]
+  },
+  {
+    "id": "minnan-taishang-laojun",
+    "name": "太上老君诞辰",
+    "region": "minnan",
+    "calendarType": "lunar",
+    "date": { "month": 2, "day": 15 },
+    "importance": "medium",
+    "customs": [
+      {
+        "title": "道观祭拜",
+        "description": "各道观祭拜太上老君"
+      }
+    ],
+    "description": "二月十五为太上老君诞辰。",
+    "tags": ["神明诞辰", "道教", "太上老君"]
+  },
+  {
+    "id": "minnan-kaizhang-shengwang",
+    "name": "开漳圣王诞辰",
+    "region": "minnan",
+    "calendarType": "lunar",
+    "date": { "month": 2, "day": 16 },
+    "importance": "high",
+    "customs": [
+      {
+        "title": "庙会祭拜",
+        "description": "漳州开漳圣王庙举办隆重祭典",
+        "preparations": ["三牲", "水果", "香烛", "金纸"]
+      }
+    ],
+    "description": "开漳圣王（陈元光）是漳州人最重要的守护神，唐代开漳功臣，二月十六为其诞辰。",
+    "tags": ["神明诞辰", "开漳圣王", "漳州"]
+  },
+  {
+    "id": "minnan-guanyin-dan",
+    "name": "观世音菩萨诞辰",
+    "region": "minnan",
+    "calendarType": "lunar",
+    "date": { "month": 2, "day": 19 },
+    "importance": "high",
+    "customs": [
+      {
+        "title": "寺庙法会",
+        "description": "各寺庙举办盛大法会祭拜观世音菩萨",
+        "preparations": ["素菜", "水果", "鲜花", "香烛"]
+      }
+    ],
+    "description": "二月十九为观世音菩萨诞辰，各寺庙盛大法会。厦门南普陀寺为重要祭拜场所。",
+    "tags": ["神明诞辰", "观音", "佛教", "法会"]
+  },
+  {
+    "id": "minnan-sanping-zushi",
+    "name": "三平祖师诞辰",
+    "region": "minnan",
+    "calendarType": "lunar",
+    "date": { "month": 2, "day": 25 },
+    "importance": "medium",
+    "customs": [
+      {
+        "title": "三平寺庙会",
+        "description": "漳州三平寺举办庙会祭拜三平祖师",
+        "preparations": ["三牲", "水果", "香烛", "金纸"]
+      }
+    ],
+    "description": "三平祖师为漳州三平寺祖师，被视为医神，二月廿五为其诞辰。",
+    "tags": ["神明诞辰", "三平祖师", "漳州", "庙会"]
+  },
+  {
+    "id": "minnan-xuantian-shangdi",
+    "name": "玄天上帝诞辰",
+    "region": "minnan",
+    "calendarType": "lunar",
+    "date": { "month": 3, "day": 3 },
+    "importance": "medium",
+    "customs": [
+      {
+        "title": "真武庙祭拜",
+        "description": "前往真武庙祭拜玄天上帝（真武大帝）",
+        "preparations": ["三牲", "水果", "香烛", "金纸"]
+      }
+    ],
+    "description": "三月初三为玄天上帝（真武大帝）诞辰，泉州真武庙是重要祭祀场所。",
+    "tags": ["神明诞辰", "玄天上帝", "道教"]
+  },
+  {
+    "id": "minnan-baosheng-dadi",
+    "name": "保生大帝诞辰",
+    "region": "minnan",
+    "calendarType": "lunar",
+    "date": { "month": 3, "day": 15 },
+    "importance": "high",
+    "customs": [
+      {
+        "title": "庙会祭拜",
+        "description": "泉州花桥慈济宫、漳州白礁慈济宫举办盛大庙会",
+        "preparations": ["三牲或五牲", "水果", "香烛", "金纸", "鞭炮"]
+      }
+    ],
+    "description": "保生大帝（吴夲）是闽南最重要的医神，原为北宋泉州同安（今厦门）名医，三月十五为其诞辰。",
+    "tags": ["神明诞辰", "保生大帝", "医神", "庙会"]
+  },
+  {
+    "id": "minnan-mazu",
+    "name": "妈祖诞辰",
+    "region": "minnan",
+    "calendarType": "lunar",
+    "date": { "month": 3, "day": 23 },
+    "importance": "high",
+    "customs": [
+      {
+        "title": "隆重祭典",
+        "description": "泉州天后宫、各妈祖庙举办隆重祭典。渔民出海前必拜。",
+        "preparations": ["三牲或五牲", "水果", "鲜花", "香烛", "金纸", "鞭炮"]
+      }
+    ],
+    "description": "妈祖（天后/天上圣母）是闽南沿海地区最重要的海神，三月廿三为其诞辰。泉州天后宫是全国重点文保单位。",
+    "tags": ["神明诞辰", "妈祖", "海神", "庙会"]
+  },
+  {
+    "id": "minnan-dongyue-dadi",
+    "name": "东岳大帝诞辰",
+    "region": "minnan",
+    "calendarType": "lunar",
+    "date": { "month": 3, "day": 28 },
+    "importance": "medium",
+    "customs": [
+      {
+        "title": "东岳庙祭拜",
+        "description": "前往东岳庙祭拜东岳大帝"
+      }
+    ],
+    "description": "三月廿八为东岳大帝诞辰。",
+    "tags": ["神明诞辰", "东岳大帝"]
+  },
+  {
+    "id": "minnan-yufo-jie",
+    "name": "释迦牟尼佛诞辰（浴佛节）",
+    "region": "minnan",
+    "calendarType": "lunar",
+    "date": { "month": 4, "day": 8 },
+    "importance": "high",
+    "customs": [
+      {
+        "title": "浴佛法会",
+        "description": "各佛寺举办浴佛法会",
+        "preparations": ["鲜花", "香烛", "素果"]
+      }
+    ],
+    "description": "四月初八为释迦牟尼佛诞辰，各佛寺举办浴佛法会。泉州开元寺为重要祭拜场所。",
+    "tags": ["神明诞辰", "佛教", "浴佛节"]
+  },
+  {
+    "id": "minnan-sufu-daren",
+    "name": "苏府大人诞辰",
+    "region": "minnan",
+    "calendarType": "lunar",
+    "date": { "month": 4, "day": 12 },
+    "importance": "medium",
+    "customs": [
+      {
+        "title": "祭拜苏府大人",
+        "description": "泉州地方神苏府大人诞辰祭拜"
+      }
+    ],
+    "description": "四月十二为苏府大人诞辰，是泉州地方神。",
+    "tags": ["神明诞辰", "泉州", "地方神"]
+  },
+  {
+    "id": "minnan-shennong",
+    "name": "神农大帝诞辰",
+    "region": "minnan",
+    "calendarType": "lunar",
+    "date": { "month": 4, "day": 26 },
+    "importance": "medium",
+    "customs": [
+      {
+        "title": "药王庙祭拜",
+        "description": "前往药王庙祭拜神农大帝"
+      }
+    ],
+    "description": "四月二十六为神农大帝诞辰。",
+    "tags": ["神明诞辰", "神农", "药王"]
+  },
+  {
+    "id": "minnan-guandi-dan",
+    "name": "关圣帝君诞辰",
+    "region": "minnan",
+    "calendarType": "lunar",
+    "date": { "month": 5, "day": 13 },
+    "importance": "high",
+    "customs": [
+      {
+        "title": "关岳庙盛大庙会",
+        "description": "泉州通淮关岳庙举办盛大庙会，商人尤其崇拜关帝",
+        "preparations": ["三牲或五牲", "水果", "香烛", "金纸", "鞭炮"]
+      }
+    ],
+    "description": "五月十三为关圣帝君（关公）诞辰，泉州通淮关岳庙香火极盛，商人尤其崇拜。",
+    "tags": ["神明诞辰", "关帝", "庙会", "商业"]
+  },
+  {
+    "id": "minnan-zhang-tianshi",
+    "name": "张天师诞辰",
+    "region": "minnan",
+    "calendarType": "lunar",
+    "date": { "month": 5, "day": 18 },
+    "importance": "medium",
+    "customs": [
+      {
+        "title": "道观祭拜",
+        "description": "各道观祭拜张天师"
+      }
+    ],
+    "description": "五月十八为张天师诞辰。",
+    "tags": ["神明诞辰", "道教", "张天师"]
+  },
+  {
+    "id": "minnan-tiankuang-jie",
+    "name": "天贶节",
+    "region": "minnan",
+    "calendarType": "lunar",
+    "date": { "month": 6, "day": 6 },
+    "importance": "medium",
+    "customs": [
+      {
+        "title": "晒经书翻晒衣物",
+        "description": "晒经书、翻晒衣物"
+      }
+    ],
+    "description": "六月初六天贶节，有晒经书、翻晒衣物的习俗。",
+    "tags": ["神明诞辰", "天贶节"]
+  },
+  {
+    "id": "minnan-wang-lingguan",
+    "name": "王灵官诞辰",
+    "region": "minnan",
+    "calendarType": "lunar",
+    "date": { "month": 6, "day": 15 },
+    "importance": "low",
+    "customs": [
+      {
+        "title": "道观祭拜",
+        "description": "各道观祭拜王灵官"
+      }
+    ],
+    "description": "六月十五为王灵官诞辰。",
+    "tags": ["神明诞辰", "道教", "王灵官"]
+  },
+  {
+    "id": "minnan-guanyin-chengdao",
+    "name": "观世音菩萨成道日",
+    "region": "minnan",
+    "calendarType": "lunar",
+    "date": { "month": 6, "day": 19 },
+    "importance": "high",
+    "customs": [
+      {
+        "title": "寺庙法会",
+        "description": "各寺庙举办法会祭拜观世音菩萨",
+        "preparations": ["素菜", "水果", "鲜花", "香烛"]
+      }
+    ],
+    "description": "六月十九为观世音菩萨成道日，各寺庙举办法会。",
+    "tags": ["神明诞辰", "观音", "佛教", "法会"]
+  },
+  {
+    "id": "minnan-guandi-modao",
+    "name": "关帝磨刀日/二郎神诞辰",
+    "region": "minnan",
+    "calendarType": "lunar",
+    "date": { "month": 6, "day": 24 },
+    "importance": "medium",
+    "customs": [
+      {
+        "title": "祭拜",
+        "description": "关帝磨刀日，亦为二郎神诞辰"
+      }
+    ],
+    "description": "六月廿四为关帝磨刀日，亦为二郎神诞辰。",
+    "tags": ["神明诞辰", "关帝", "二郎神"]
+  },
+  {
+    "id": "minnan-taisui",
+    "name": "太岁殿值年太岁",
+    "region": "minnan",
+    "calendarType": "lunar",
+    "date": { "month": 7, "day": 19 },
+    "importance": "low",
+    "customs": [
+      {
+        "title": "祭拜太岁",
+        "description": "祭拜值年太岁"
+      }
+    ],
+    "description": "七月十九为太岁殿值年太岁之日。",
+    "tags": ["神明诞辰", "太岁"]
+  },
+  {
+    "id": "minnan-fazhu-gong",
+    "name": "法主公诞辰",
+    "region": "minnan",
+    "calendarType": "lunar",
+    "date": { "month": 7, "day": 23 },
+    "importance": "medium",
+    "customs": [
+      {
+        "title": "祭拜法主公",
+        "description": "永春、德化一带重要的地方神法主公（张圣者）诞辰祭拜",
+        "preparations": ["三牲", "水果", "香烛", "金纸"]
+      }
+    ],
+    "description": "法主公（张圣者）是永春、德化一带重要的地方神，七月廿三为其诞辰。",
+    "tags": ["神明诞辰", "法主公", "地方神"]
+  },
+  {
+    "id": "minnan-dizangwang",
+    "name": "地藏王菩萨诞辰",
+    "region": "minnan",
+    "calendarType": "lunar",
+    "date": { "month": 7, "day": 30 },
+    "importance": "medium",
+    "customs": [
+      {
+        "title": "寺庙法会",
+        "description": "各寺庙举办法会祭拜地藏王菩萨"
+      }
+    ],
+    "description": "七月三十为地藏王菩萨诞辰。",
+    "tags": ["神明诞辰", "地藏王", "佛教"]
+  },
+  {
+    "id": "minnan-beidou-xingjun",
+    "name": "北斗星君诞辰",
+    "region": "minnan",
+    "calendarType": "lunar",
+    "date": { "month": 8, "day": 3 },
+    "importance": "low",
+    "customs": [
+      {
+        "title": "祭拜北斗星君",
+        "description": "祭拜北斗星君"
+      }
+    ],
+    "description": "八月初三为北斗星君诞辰。",
+    "tags": ["神明诞辰", "北斗星君"]
+  },
+  {
+    "id": "minnan-guangze-zunwang",
+    "name": "广泽尊王诞辰",
+    "region": "minnan",
+    "calendarType": "lunar",
+    "date": { "month": 8, "day": 22 },
+    "importance": "high",
+    "customs": [
+      {
+        "title": "凤山寺盛大庙会",
+        "description": "南安诗山凤山寺举办盛大庙会祭拜广泽尊王",
+        "preparations": ["三牲或五牲", "水果", "香烛", "金纸", "鞭炮"]
+      }
+    ],
+    "description": "广泽尊王是泉州地区重要的地方神，又称'圣王公'，八月廿二为其诞辰。南安诗山凤山寺为祖庙。",
+    "tags": ["神明诞辰", "广泽尊王", "泉州", "庙会"]
+  },
+  {
+    "id": "minnan-qingshan-wang",
+    "name": "青山王诞辰",
+    "region": "minnan",
+    "calendarType": "lunar",
+    "date": { "month": 8, "day": 23 },
+    "importance": "medium",
+    "customs": [
+      {
+        "title": "青山宫祭拜",
+        "description": "惠安青山宫祭拜青山王"
+      }
+    ],
+    "description": "八月廿三为青山王（刑部尚书）诞辰，惠安青山宫为主要祭拜场所。",
+    "tags": ["神明诞辰", "青山王", "惠安"]
+  },
+  {
+    "id": "minnan-nandou-xingjun",
+    "name": "南斗星君诞辰",
+    "region": "minnan",
+    "calendarType": "lunar",
+    "date": { "month": 9, "day": 1 },
+    "importance": "low",
+    "customs": [
+      {
+        "title": "祭拜南斗星君",
+        "description": "祭拜南斗星君"
+      }
+    ],
+    "description": "九月初一为南斗星君诞辰。",
+    "tags": ["神明诞辰", "南斗星君"]
+  },
+  {
+    "id": "minnan-doumu-yuanjun",
+    "name": "斗姥元君诞辰",
+    "region": "minnan",
+    "calendarType": "lunar",
+    "date": { "month": 9, "day": 9 },
+    "importance": "medium",
+    "customs": [
+      {
+        "title": "祭拜斗姥元君",
+        "description": "重阳节祭拜斗姥元君"
+      }
+    ],
+    "description": "九月初九为斗姥元君诞辰，与重阳节同日。",
+    "tags": ["神明诞辰", "斗姥元君", "道教"]
+  },
+  {
+    "id": "minnan-zhongtan-yuanshuai",
+    "name": "中坛元帅（哪吒三太子）诞辰",
+    "region": "minnan",
+    "calendarType": "lunar",
+    "date": { "month": 9, "day": 9 },
+    "importance": "medium",
+    "customs": [
+      {
+        "title": "元帅庙祭拜",
+        "description": "各地元帅庙祭拜中坛元帅（哪吒三太子）"
+      }
+    ],
+    "description": "九月初九为中坛元帅（哪吒三太子）诞辰。",
+    "tags": ["神明诞辰", "中坛元帅", "哪吒"]
+  },
+  {
+    "id": "minnan-guanyin-chujia",
+    "name": "观世音菩萨出家日",
+    "region": "minnan",
+    "calendarType": "lunar",
+    "date": { "month": 9, "day": 19 },
+    "importance": "high",
+    "customs": [
+      {
+        "title": "寺庙法会",
+        "description": "各寺庙举办法会祭拜观世音菩萨",
+        "preparations": ["素菜", "水果", "鲜花", "香烛"]
+      }
+    ],
+    "description": "九月十九为观世音菩萨出家日，各寺庙举办法会。",
+    "tags": ["神明诞辰", "观音", "佛教", "法会"]
+  },
+  {
+    "id": "minnan-fan-qiansui",
+    "name": "五年千岁·范千岁千秋",
+    "region": "minnan",
+    "calendarType": "lunar",
+    "date": { "month": 9, "day": 28 },
+    "importance": "low",
+    "customs": [
+      {
+        "title": "祭拜范千岁",
+        "description": "祭拜五年千岁之范千岁"
+      }
+    ],
+    "description": "九月廿八为五年千岁·范千岁千秋。",
+    "tags": ["神明诞辰", "千岁"]
+  },
+  {
+    "id": "minnan-xiayuan",
+    "name": "下元水官大帝诞辰",
+    "region": "minnan",
+    "calendarType": "lunar",
+    "date": { "month": 10, "day": 15 },
+    "importance": "medium",
+    "customs": [
+      {
+        "title": "祭拜水官大帝",
+        "description": "祭拜水官大帝，祈求解厄",
+        "preparations": ["三牲", "水果", "香烛", "金纸"]
+      }
+    ],
+    "description": "十月十五为下元水官大帝诞辰，祭拜水官大帝祈求解厄。",
+    "tags": ["神明诞辰", "下元节", "水官大帝"]
+  },
+  {
+    "id": "minnan-qingshan-wang-2",
+    "name": "青山王诞辰（十月）",
+    "region": "minnan",
+    "calendarType": "lunar",
+    "date": { "month": 10, "day": 22 },
+    "importance": "medium",
+    "customs": [
+      {
+        "title": "青山宫祭拜",
+        "description": "惠安青山宫祭拜青山王"
+      }
+    ],
+    "description": "十月廿二为青山王诞辰（一说），惠安青山宫为主要祭拜场所。",
+    "tags": ["神明诞辰", "青山王", "惠安"]
+  },
+  {
+    "id": "minnan-amituo-fo",
+    "name": "阿弥陀佛佛诞",
+    "region": "minnan",
+    "calendarType": "lunar",
+    "date": { "month": 11, "day": 17 },
+    "importance": "medium",
+    "customs": [
+      {
+        "title": "念佛法会",
+        "description": "各佛寺举办念佛法会"
+      }
+    ],
+    "description": "十一月十七为阿弥陀佛佛诞。",
+    "tags": ["神明诞辰", "佛教", "阿弥陀佛"]
+  },
+  {
+    "id": "minnan-zhangxian-dadi",
+    "name": "张仙大帝诞辰",
+    "region": "minnan",
+    "calendarType": "lunar",
+    "date": { "month": 11, "day": 23 },
+    "importance": "low",
+    "customs": [
+      {
+        "title": "祭拜张仙大帝",
+        "description": "祭拜张仙大帝"
+      }
+    ],
+    "description": "十一月廿三为张仙大帝诞辰。",
+    "tags": ["神明诞辰", "张仙大帝"]
+  },
+  {
+    "id": "minnan-sandai-zushi",
+    "name": "三代祖师圣诞",
+    "region": "minnan",
+    "calendarType": "lunar",
+    "date": { "month": 12, "day": 4 },
+    "importance": "low",
+    "customs": [
+      {
+        "title": "祭拜三代祖师",
+        "description": "祭拜三代祖师"
+      }
+    ],
+    "description": "十二月初四为三代祖师圣诞。",
+    "tags": ["神明诞辰", "三代祖师"]
+  },
+  {
+    "id": "minnan-laba",
+    "name": "释迦牟尼成道日（腊八）",
+    "region": "minnan",
+    "calendarType": "lunar",
+    "date": { "month": 12, "day": 8 },
+    "importance": "medium",
+    "customs": [
+      {
+        "title": "佛寺法会",
+        "description": "各佛寺举办法会"
+      },
+      {
+        "title": "煮腊八粥",
+        "description": "煮腊八粥"
+      }
+    ],
+    "description": "十二月初八为释迦牟尼成道日，即腊八节。",
+    "tags": ["神明诞辰", "佛教", "腊八"]
+  },
+  {
+    "id": "minnan-shuowang",
+    "name": "朔望日（初一、十五）",
+    "region": "minnan",
+    "calendarType": "lunar",
+    "date": { "month": 1, "day": 1 },
+    "importance": "medium",
+    "customs": [
+      {
+        "title": "家中焚香祭拜",
+        "description": "在家中神明厅焚香祭拜神明和祖先",
+        "preparations": ["鲜花", "水果", "清茶三杯", "香烛", "金纸"]
+      },
+      {
+        "title": "庙里烧香",
+        "description": "有些家庭会去庙里烧香"
+      }
+    ],
+    "description": "初一十五为朔望之日，阴阳交替。闽南家庭在这两天祭拜神明和祖先。每月农历初一和十五固定拜拜。",
+    "tags": ["每月固定", "朔望日", "祭拜"]
+  },
+  {
+    "id": "minnan-zuoya",
+    "name": "做牙日（初二、十六）",
+    "region": "minnan",
+    "calendarType": "lunar",
+    "date": { "month": 1, "day": 2 },
+    "importance": "medium",
+    "customs": [
+      {
+        "title": "祭拜土地公",
+        "description": "在店门口或土地公庙前设供桌祭拜土地公，祈求生意兴隆、财源广进",
+        "preparations": ["三牲（鸡、猪肉、鱼）", "水果", "酒", "土地公金、寿金、刈金"]
+      },
+      {
+        "title": "打牙祭",
+        "description": "祭拜后全家/全店同仁一起吃'打牙祭'"
+      }
+    ],
+    "description": "'做牙'是闽南商业文化的重要体现。每月初二、十六祭拜土地公（福德正神），称为'做牙'。全年共24次做牙，其中二月初二'头牙'和十二月十六'尾牙'最为隆重。",
+    "tags": ["每月固定", "做牙", "土地公", "商业"]
+  },
+  {
+    "id": "minnan-dijizhu",
+    "name": "地基主日",
+    "region": "minnan",
+    "calendarType": "lunar",
+    "date": { "month": 1, "day": 2 },
+    "importance": "low",
+    "customs": [
+      {
+        "title": "祭拜地基主",
+        "description": "在厨房后门或家中朝内祭拜地基主，地基主是守护住宅的神灵",
+        "preparations": ["饭菜两碗", "鸡腿", "酒三杯", "刈金", "银纸"]
+      }
+    ],
+    "description": "地基主是守护住宅的神灵，闽南人逢年过节、搬家等都会祭拜。部分家庭在每月初二或特定日子祭拜。",
+    "tags": ["每月固定", "地基主", "住宅"]
+  },
+  {
+    "id": "minnan-lichun",
+    "name": "立春",
+    "region": "minnan",
+    "calendarType": "solarTerm",
+    "date": { "month": 0, "day": 0, "solarTerm": "立春" },
+    "importance": "low",
+    "customs": [
+      {
+        "title": "迎春",
+        "description": "有'迎春'习俗，旧时官府举办迎春仪式"
+      },
+      {
+        "title": "吃春饼",
+        "description": "吃春饼（润饼）",
+        "preparations": ["润饼", "春花"]
+      }
+    ],
+    "description": "立春为二十四节气之首，闽南有迎春和吃春饼的习俗。",
+    "tags": ["节气", "立春", "迎春"]
+  },
+  {
+    "id": "minnan-dongzhi",
+    "name": "冬至（冬节）",
+    "region": "minnan",
+    "calendarType": "solarTerm",
+    "date": { "month": 0, "day": 0, "solarTerm": "冬至" },
+    "importance": "high",
+    "customs": [
+      {
+        "title": "搓圆仔（汤圆）",
+        "description": "冬至前夜，全家围坐厅堂搓圆。搓时禁说不吉利的话。要搓一些红色圆仔掺入，表示吉祥。",
+        "preparations": ["糯米粉", "红色食用色素/红曲", "红糖"],
+        "timing": "冬至前夜"
+      },
+      {
+        "title": "吃甜圆仔汤",
+        "description": "冬至早晨煮甜丸汤（红糖水煮圆仔）先祭祖先，然后全家共食",
+        "timing": "冬至早晨"
+      },
+      {
+        "title": "贴圆仔",
+        "description": "留几粒圆仔贴在门框、窗户、仓库、桌柜、牛舍、猪圈、水井甚至厕所等处，求诸神保佑居家平安。大门上贴两个大圆仔。"
+      },
+      {
+        "title": "祭祖",
+        "description": "各家族聚集宗祠祭拜祖先",
+        "preparations": ["三牲", "鸡卷", "目鱼", "发糕", "圆仔", "香烛", "金纸"]
+      },
+      {
+        "title": "补冬",
+        "description": "进补身体。厦门吃姜母鸭、泉州吃汤圆和润饼、漳州吃冬至糖圆",
+        "preparations": ["姜母鸭/当归鸡/羊肉等进补材料"]
+      }
+    ],
+    "description": "闽南冬至极为隆重，与清明并称'春冬二祭'。闽南有'冬至大如年'之说。泉州有'冬节不回家无祖'之说，在外的人都要尽量回家过冬至。",
+    "tags": ["节气", "冬至", "汤圆", "祭祖", "进补"]
+  },
+  {
+    "id": "minnan-foshengri",
+    "name": "佛生日（民间庙会/迎神赛会）",
+    "region": "minnan",
+    "calendarType": "lunar",
+    "date": { "month": 8, "day": 1 },
+    "importance": "high",
+    "customs": [
+      {
+        "title": "迎神/游神/出巡",
+        "description": "神像出庙巡游全境，队伍浩浩荡荡"
+      },
+      {
+        "title": "搭戏台唱戏",
+        "description": "酬神戏（梨园戏、高甲戏、歌仔戏等）"
+      },
+      {
+        "title": "宴客",
+        "description": "各家宴请亲友，堪比过年",
+        "preparations": ["五牲或三牲", "丰盛菜肴", "金纸、香烛", "鞭炮、烟花"]
+      },
+      {
+        "title": "设醮（做醮）",
+        "description": "道士做法事，祈福消灾"
+      }
+    ],
+    "description": "'佛生日'是闽南一带特有的传统民间节日，有'第二春节'之称。源于古时'报秋'习俗，至今数百年历史。各村社区有各自崇拜的主神，逢该神诞辰便举办盛大庙会。多集中在农历八、九月秋收季节。",
+    "tags": ["庙会", "迎神", "酬神戏", "佛生日"]
+  },
+  {
+    "id": "minnan-rucu",
+    "name": "新居入厝/安厝",
+    "region": "minnan",
+    "calendarType": "lunar",
+    "date": { "month": 0, "day": 0 },
+    "importance": "high",
+    "customs": [
+      {
+        "title": "择日搬迁",
+        "description": "择吉日搬迁入住新居"
+      },
+      {
+        "title": "祭拜地基主、土地公",
+        "description": "祭拜地基主和土地公"
+      },
+      {
+        "title": "请灶神",
+        "description": "请灶神入新家"
+      },
+      {
+        "title": "全屋燃香",
+        "description": "全屋各处燃香",
+        "preparations": ["火炉（或电饭锅象征）", "米", "油", "盐", "酱", "醋", "茶", "发糕", "汤圆"]
+      }
+    ],
+    "description": "新居入厝是闽南重要的民俗活动，需择吉日进行，祭拜地基主、土地公并请灶神。",
+    "tags": ["民俗", "入厝", "搬家"]
+  },
+  {
+    "id": "minnan-xiepingan",
+    "name": "谢平安（建醮）",
+    "region": "minnan",
+    "calendarType": "lunar",
+    "date": { "month": 10, "day": 1 },
+    "importance": "high",
+    "customs": [
+      {
+        "title": "建醮祈安",
+        "description": "全境联合举行大型醮会，道士做法事，建醮祈安"
+      },
+      {
+        "title": "备办供品祭拜",
+        "description": "各家备办供品祭拜"
+      },
+      {
+        "title": "演戏酬神",
+        "description": "演戏酬神"
+      }
+    ],
+    "description": "秋收后的酬神活动，感谢神明一年保佑风调雨顺、合境平安。多在农历十月或十一月举行。",
+    "tags": ["民俗", "建醮", "谢平安", "酬神"]
+  },
+  {
+    "id": "minnan-hunjia",
+    "name": "闽南婚嫁拜拜",
+    "region": "minnan",
+    "calendarType": "lunar",
+    "date": { "month": 0, "day": 0 },
+    "importance": "high",
+    "customs": [
+      {
+        "title": "敬拜天公",
+        "description": "婚嫁时敬拜天公"
+      },
+      {
+        "title": "祭祖告知",
+        "description": "祭拜祖先告知婚事"
+      },
+      {
+        "title": "拜灶神",
+        "description": "祭拜灶神"
+      },
+      {
+        "title": "新娘进门跨火炉",
+        "description": "新娘进门时跨过火炉，寓意兴旺",
+        "preparations": ["红圆", "汤圆", "鸡蛋", "猪脚面线"]
+      }
+    ],
+    "description": "闽南婚嫁有诸多拜拜习俗，需择吉日进行。",
+    "tags": ["民俗", "婚嫁", "祭祀"]
+  },
+  {
+    "id": "minnan-sangzang",
+    "name": "闽南丧葬祭祀周期",
+    "region": "minnan",
+    "calendarType": "lunar",
+    "date": { "month": 0, "day": 0 },
+    "importance": "high",
+    "customs": [
+      {
+        "title": "做七",
+        "description": "每七天一次，共七次（头七到满七）"
+      },
+      {
+        "title": "做百日",
+        "description": "过世后第100天祭祀"
+      },
+      {
+        "title": "做对年",
+        "description": "过世后满一年祭祀"
+      },
+      {
+        "title": "做三年（合炉）",
+        "description": "过世后第三年进行合炉仪式"
+      },
+      {
+        "title": "定期祭扫",
+        "description": "之后每年清明、冬至祭扫"
+      }
+    ],
+    "description": "闽南丧葬祭祀有完整的周期，从做七到做三年（合炉），之后每年清明冬至定期祭扫。",
+    "tags": ["民俗", "丧葬", "祭祀"]
+  }
+]
