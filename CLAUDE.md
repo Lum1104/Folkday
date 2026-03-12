@@ -20,15 +20,20 @@ npx jest src/services/__tests__/festivalService.test.ts
 
 # iOS pod install (after adding native deps)
 cd ios && bundle exec pod install && cd ..
+
+# Helper scripts
+./scripts/ios_sim.sh       # Start Metro + iOS simulator
+./scripts/android_sim.sh   # Start Metro + Android emulator
+./scripts/android_pack.sh  # Build Android release APK
 ```
 
 ## Architecture
 
 ### State Management
-React Context + useReducer in `src/contexts/AppContext.tsx`. No Redux. State is persisted to AsyncStorage. Actions: `TOGGLE_REGION`, `SET_REMINDER_ENABLED`, `SET_REMINDER_DAYS`, `SET_REMINDER_TIME`.
+React Context + useReducer in `src/contexts/AppContext.tsx`. No Redux. State is persisted to AsyncStorage. Actions: `TOGGLE_REGION`, `SET_REMINDER_ENABLED`, `SET_REMINDER_DAYS`, `SET_REMINDER_TIME`, `SET_PREFERENCES`, `SET_SELECTED_DATE`, `SET_LOADING`.
 
 ### Navigation
-Bottom tabs (Calendar / Regions / Settings) with a native stack inside the Calendar tab for drill-down to `FestivalDetail`.
+Bottom tabs (Calendar / Regions / Reminders) with a native stack inside the Calendar tab for drill-down to `FestivalDetail`.
 
 ### Service Layer
 - **festivalService.ts** — Resolves festival dates (lunar, solar, or solar-term based), queries festivals by date/month/upcoming.
@@ -43,6 +48,12 @@ Festival data lives in `src/data/regions/*.json` (one file per region). Loaded a
 - `UserPreferences` — selectedRegions, reminderEnabled, reminderDays (per importance tier), reminderTime
 - `DayFestivalInfo` — aggregated info for a calendar day (festivals, lunar date, solar term)
 
+### Components (`src/components/`)
+Reusable UI: `DualDateCell`, `FestivalCard`, `CountdownBadge`, `CustomItem`, `ErrorBoundary`.
+
+### Utilities (`src/utils/`)
+`dateUtils.ts` — Date formatting helpers.
+
 ### Path Aliases
 `@/*` maps to `src/*` (configured in both `tsconfig.json` and `babel.config.js`).
 
@@ -51,6 +62,20 @@ Chaoshan: `#C0392B` (red), Minnan: `#E67E22` (orange), Guangfu: `#D4A017` (gold)
 
 ## Testing
 Jest with react-native preset. Mocks for AsyncStorage, navigation, calendars, push notifications, and gesture handler are set up in `jest.setup.js`. Test files live alongside source in `__tests__/` subdirectories.
+
+## Website
+Astro-based landing page in `/website/` (separate `package.json`). Auto-deployed to GitHub Pages via `.github/workflows/deploy-website.yml` on pushes to `website/` dir.
+
+## Release & CI
+- Version follows semver; bump in `package.json` and `app.json`
+- `git tag v1.x.x && git push --tags` triggers `.github/workflows/release-apk.yml` to build & publish APK
+- Helper scripts in `/scripts/`: `ios_sim.sh`, `android_sim.sh`, `android_pack.sh`
+
+## Reference Data
+Regional festival customs documentation (Chinese) in `docs/*.md`. Festival data JSON sourced/cross-referenced from these.
+
+## Code Style
+Prettier: single quotes, trailing commas, no parens on single arrow params. ESLint: `@react-native` preset.
 
 ## Requirements
 - Node >= 22.11.0
