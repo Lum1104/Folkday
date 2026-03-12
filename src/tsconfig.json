@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "jsx": "react-jsx",
+    "moduleResolution": "bundler",
+    "paths": {
+      "@/*": ["./*"]
+    }
+  }
+}
