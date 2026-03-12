@@ -7,39 +7,15 @@ import { getFestivalSolarDate } from './lunarService';
 
 export async function requestNotificationPermissions(): Promise<boolean> {
   try {
-    if (Platform.OS === 'android') {
-      // Android 13+ (API 33): request POST_NOTIFICATIONS runtime permission
-      if (Platform.Version >= 33) {
-        const result = await PermissionsAndroid.request(
-          PermissionsAndroid.PERMISSIONS.POST_NOTIFICATIONS
-        );
-        if (result !== PermissionsAndroid.RESULTS.GRANTED) {
-          console.warn(
-            'POST_NOTIFICATIONS permission not granted:',
-            result
-          );
-          return false;
-        }
+    if (Platform.OS === 'android' && Platform.Version >= 33) {
+      const result = await PermissionsAndroid.request(
+        PermissionsAndroid.PERMISSIONS.POST_NOTIFICATIONS,
+      );
+      if (result !== PermissionsAndroid.RESULTS.GRANTED) {
+        console.warn('POST_NOTIFICATIONS permission not granted:', result);
+        return false;
       }
-
-      // Android 12+ (API 31): check SCHEDULE_EXACT_ALARM (special permission, cannot be requested programmatically)
-      if (Platform.Version >= 31) {
-        const hasExactAlarm = await PermissionsAndroid.check(
-          'android.permission.SCHEDULE_EXACT_ALARM' as any
-        );
-        if (!hasExactAlarm) {
-          console.warn(
-            'SCHEDULE_EXACT_ALARM permission not granted. ' +
-              'The app will fall back to inexact alarms. ' +
-              'Users can enable exact alarms in system settings.'
-          );
-        }
-      }
-
-      return true;
     }
-
-    // iOS handles permissions via PushNotification.configure's requestPermissions
     return true;
   } catch (error) {
     console.error('Failed to request notification permissions:', error);
@@ -47,10 +23,8 @@ export async function requestNotificationPermissions(): Promise<boolean> {
   }
 }
 
-export async function configureNotifications() {
+export function configureNotifications() {
   try {
-    await requestNotificationPermissions();
-
     PushNotification.configure({
       onNotification: function (notification) {
         console.log('NOTIFICATION:', notification);
