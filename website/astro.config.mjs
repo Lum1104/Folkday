@@ -10,6 +10,7 @@ export default defineConfig({
     resolve: {
       alias: {
         '@shared': path.resolve(import.meta.dirname, '..', 'src'),
+        'lunar-typescript': path.resolve(import.meta.dirname, 'node_modules', 'lunar-typescript'),
       },
     },
     esbuild: {
