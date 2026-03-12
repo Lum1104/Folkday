@@ -64,7 +64,15 @@ Chaoshan: `#C0392B` (red), Minnan: `#E67E22` (orange), Guangfu: `#D4A017` (gold)
 Jest with react-native preset. Mocks for AsyncStorage, navigation, calendars, push notifications, and gesture handler are set up in `jest.setup.js`. Test files live alongside source in `__tests__/` subdirectories.
 
 ## Website
-Astro-based landing page in `/website/` (separate `package.json`). Auto-deployed to GitHub Pages via `.github/workflows/deploy-website.yml` on pushes to `website/` dir.
+Astro-based site in `/website/` (separate `package.json`). Auto-deployed to GitHub Pages via `.github/workflows/deploy-website.yml` on pushes to `website/` dir.
+
+### Web App
+A React island (`client:only="react"`) at `/website/src/pages/app.astro` embeds the core Folkday experience (calendar, festival details, region filter) into the Astro site. Components live in `website/src/components/app/`.
+
+### Shared Code via Vite Alias
+The web app reuses `src/data/`, `src/services/`, `src/types/`, and `src/utils/` via a Vite alias `@shared` → `../../src` (configured in `website/astro.config.mjs`).
+
+**Critical CI caveat:** The root `tsconfig.json` extends `@react-native/typescript-config`, which is not installed in the website's `node_modules`. When Vite processes shared `src/` files, its esbuild plugin resolves the nearest tsconfig and fails on CI. The fix is `esbuild.tsconfigRaw` passed as a **JSON string** (not an object) in the Vite config — only a string skips Vite's filesystem tsconfig resolution entirely. An object value still triggers resolution and then merges.
 
 ## Release & CI
 - Version follows semver; bump in `package.json` and `app.json`
