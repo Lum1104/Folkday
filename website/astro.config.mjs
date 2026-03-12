@@ -13,13 +13,11 @@ export default defineConfig({
       },
     },
     esbuild: {
-      tsconfigRaw: {
+      tsconfigRaw: JSON.stringify({
         compilerOptions: {
           jsx: 'react-jsx',
-          resolveJsonModule: true,
-          esModuleInterop: true,
         },
-      },
+      }),
     },
   },
 });
