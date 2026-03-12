@@ -1,5 +1,5 @@
 // src/screens/RegionFilter.tsx
-import React from 'react';
+import React, { useCallback, useMemo, memo } from 'react';
 import {
   View,
   Text,
@@ -19,14 +19,71 @@ const REGION_COLORS: Record<RegionId, string> = {
   kejia: '#27826B',
 };
 
+interface RegionCardProps {
+  regionId: RegionId;
+  name: string;
+  description: string;
+  festivalCount: number;
+  isSelected: boolean;
+  color: string;
+  onToggle: (id: RegionId) => void;
+}
+
+const RegionCard = memo(function RegionCard({ regionId, name, description, festivalCount, isSelected, color, onToggle }: RegionCardProps) {
+  return (
+    <TouchableOpacity
+      style={[
+        styles.regionCard,
+        isSelected && {
+          borderColor: color,
+          backgroundColor: color + '10',
+        },
+      ]}
+      onPress={() => onToggle(regionId)}
+      activeOpacity={0.7}
+    >
+      <View style={styles.regionHeader}>
+        <View style={styles.regionInfo}>
+          <Text style={[styles.regionName, { color: isSelected ? color : '#333' }]}>
+            {name}
+          </Text>
+          <Text style={styles.regionDesc}>{description}</Text>
+          <Text style={styles.festivalCount}>
+            {festivalCount} 个传统节日
+          </Text>
+        </View>
+
+        <View
+          style={[
+            styles.checkbox,
+            isSelected
+              ? { backgroundColor: color, borderColor: color }
+              : { borderColor: '#CCC' },
+          ]}
+        >
+          {isSelected && <Text style={styles.checkmark}>✓</Text>}
+        </View>
+      </View>
+    </TouchableOpacity>
+  );
+});
+
 export default function RegionFilter() {
   const { state, dispatch } = useAppContext();
   const { selectedRegions } = state.preferences;
   const insets = useSafeAreaInsets();
 
-  const handleToggle = (regionId: RegionId) => {
+  const handleToggle = useCallback((regionId: RegionId) => {
     dispatch({ type: 'TOGGLE_REGION', payload: regionId });
-  };
+  }, [dispatch]);
+
+  const festivalCounts = useMemo(() => {
+    const counts: Record<string, number> = {};
+    for (const region of REGION_LIST) {
+      counts[region.id] = getFestivalsByRegion(region.id).length;
+    }
+    return counts;
+  }, []);
 
   return (
     <ScrollView style={styles.container} contentContainerStyle={[styles.content, { paddingTop: insets.top + 20 }]}>
@@ -35,49 +92,18 @@ export default function RegionFilter() {
         仅已选地区的节日会显示在日历中，可随时更改
       </Text>
 
-      {REGION_LIST.map(region => {
-        const isSelected = selectedRegions.includes(region.id);
-        const color = REGION_COLORS[region.id];
-        const festivalCount = getFestivalsByRegion(region.id).length;
-
-        return (
-          <TouchableOpacity
-            key={region.id}
-            style={[
-              styles.regionCard,
-              isSelected && {
-                borderColor: color,
-                backgroundColor: color + '10',
-              },
-            ]}
-            onPress={() => handleToggle(region.id)}
-            activeOpacity={0.7}
-          >
-            <View style={styles.regionHeader}>
-              <View style={styles.regionInfo}>
-                <Text style={[styles.regionName, { color: isSelected ? color : '#333' }]}>
-                  {region.name}
-                </Text>
-                <Text style={styles.regionDesc}>{region.description}</Text>
-                <Text style={styles.festivalCount}>
-                  {festivalCount} 个传统节日
-                </Text>
-              </View>
-
-              <View
-                style={[
-                  styles.checkbox,
-                  isSelected
-                    ? { backgroundColor: color, borderColor: color }
-                    : { borderColor: '#CCC' },
-                ]}
-              >
-                {isSelected && <Text style={styles.checkmark}>✓</Text>}
-              </View>
-            </View>
-          </TouchableOpacity>
-        );
-      })}
+      {REGION_LIST.map(region => (
+        <RegionCard
+          key={region.id}
+          regionId={region.id}
+          name={region.name}
+          description={region.description}
+          festivalCount={festivalCounts[region.id]}
+          isSelected={selectedRegions.includes(region.id)}
+          color={REGION_COLORS[region.id]}
+          onToggle={handleToggle}
+        />
+      ))}
     </ScrollView>
   );
 }

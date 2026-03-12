@@ -6,6 +6,8 @@ import {
   StyleSheet,
   FlatList,
   SafeAreaView,
+  TouchableOpacity,
+  Platform,
 } from 'react-native';
 import { Calendar, DateData } from 'react-native-calendars';
 import { useAppContext } from '../contexts/AppContext';
@@ -137,6 +139,51 @@ export default function CalendarScreen({ navigation }: CalendarScreenProps) {
 
   const keyExtractor = useCallback((item: Festival) => item.id, []);
 
+  // Custom day component with larger tap target
+  const DayComponent = useCallback(({ date, state, marking, onPress }: any) => {
+    const isSelected = marking?.selected;
+    const isToday = state === 'today';
+    const isDisabled = state === 'disabled';
+    const dots = marking?.dots || [];
+
+    const textColor = isSelected
+      ? '#FFFFFF'
+      : isToday
+        ? '#C0392B'
+        : isDisabled
+          ? '#CCCCCC'
+          : '#2C2C2C';
+
+    return (
+      <View style={dayStyles.wrapper}>
+        <TouchableOpacity
+          hitSlop={{ top: 8, bottom: 8, left: 4, right: 4 }}
+          onPress={() => onPress(date)}
+          activeOpacity={0.5}
+          style={[
+            dayStyles.cell,
+            isSelected && dayStyles.selectedCell,
+            isToday && !isSelected && dayStyles.todayCell,
+          ]}
+        >
+          <Text style={[dayStyles.dayText, { color: textColor }]}>
+            {date.day}
+          </Text>
+        </TouchableOpacity>
+        {dots.length > 0 && (
+          <View style={dayStyles.dotsRow}>
+            {dots.map((dot: any, index: number) => (
+              <View
+                key={dot.key || index}
+                style={[dayStyles.dot, { backgroundColor: dot.color }]}
+              />
+            ))}
+          </View>
+        )}
+      </View>
+    );
+  }, []);
+
   return (
     <SafeAreaView style={styles.safeArea}>
       <View style={styles.container}>
@@ -161,6 +208,7 @@ export default function CalendarScreen({ navigation }: CalendarScreenProps) {
           enableSwipeMonths={true}
           markingType="multi-dot"
           markedDates={markedDates}
+          dayComponent={DayComponent}
           theme={{
             calendarBackground: '#FBF7F0',
             textSectionTitleColor: '#888888',
@@ -284,5 +332,39 @@ const styles = StyleSheet.create({
   emptyText: {
     fontSize: 14,
     color: '#B0B0B0',
+  },
+});
+
+const dayStyles = StyleSheet.create({
+  wrapper: {
+    alignItems: 'center',
+  },
+  cell: {
+    alignItems: 'center',
+    justifyContent: 'center',
+    width: 36,
+    height: 36,
+    borderRadius: 18,
+  },
+  selectedCell: {
+    backgroundColor: '#C0392B',
+  },
+  todayCell: {
+    borderWidth: 1,
+    borderColor: '#C0392B',
+  },
+  dayText: {
+    fontSize: 15,
+    fontWeight: '500',
+  },
+  dotsRow: {
+    flexDirection: 'row',
+    marginTop: 1,
+  },
+  dot: {
+    width: 5,
+    height: 5,
+    borderRadius: 2.5,
+    marginHorizontal: 1,
   },
 });

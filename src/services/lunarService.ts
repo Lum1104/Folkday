@@ -47,6 +47,10 @@ export function getLunarDateInfo(year: number, month: number, day: number): Luna
   };
 }
 
+// Caches for expensive lunar-typescript operations
+const lunarToSolarCache = new Map<string, SolarDate>();
+const solarTermCache = new Map<string, SolarDate | null>();
+
 /**
  * Convert a lunar date to a solar (Gregorian) date.
  * For leap months, pass isLeap = true.
@@ -57,14 +61,21 @@ export function lunarToSolar(
   lunarDay: number,
   isLeap = false,
 ): SolarDate {
+  const key = `${lunarYear}-${lunarMonth}-${lunarDay}-${isLeap}`;
+  const cached = lunarToSolarCache.get(key);
+  if (cached) {
+    return cached;
+  }
   const month = isLeap ? -lunarMonth : lunarMonth;
   const lunar = Lunar.fromYmd(lunarYear, month, lunarDay);
   const solar = lunar.getSolar();
-  return {
+  const result = {
     year: solar.getYear(),
     month: solar.getMonth(),
     day: solar.getDay(),
   };
+  lunarToSolarCache.set(key, result);
+  return result;
 }
 
 /**
@@ -73,6 +84,11 @@ export function lunarToSolar(
  * rather than iterating day-by-day.
  */
 export function getSolarTermDate(year: number, termName: string): SolarDate | null {
+  const cacheKey = `${year}-${termName}`;
+  if (solarTermCache.has(cacheKey)) {
+    return solarTermCache.get(cacheKey)!;
+  }
+
   // Use a date in the middle of the year to get the jieqi table
   // The table from any lunar date contains jieqi spanning roughly a year
   const solar = Solar.fromYmd(year, 6, 15);
@@ -81,11 +97,13 @@ export function getSolarTermDate(year: number, termName: string): SolarDate | nu
 
   const solarObj = table[termName];
   if (solarObj && solarObj.getYear() === year) {
-    return {
+    const result = {
       year: solarObj.getYear(),
       month: solarObj.getMonth(),
       day: solarObj.getDay(),
     };
+    solarTermCache.set(cacheKey, result);
+    return result;
   }
 
   // If not found from mid-year, try from January (for early-year terms)
@@ -99,14 +117,17 @@ export function getSolarTermDate(year: number, termName: string): SolarDate | nu
     const altTable = altLunar.getJieQiTable();
     const altSolarObj = altTable[termName];
     if (altSolarObj && altSolarObj.getYear() === year) {
-      return {
+      const result = {
         year: altSolarObj.getYear(),
         month: altSolarObj.getMonth(),
         day: altSolarObj.getDay(),
       };
+      solarTermCache.set(cacheKey, result);
+      return result;
     }
   }
 
+  solarTermCache.set(cacheKey, null);
   return null;
 }
 

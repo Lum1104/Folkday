@@ -29,6 +29,9 @@ function isResolvable(festival: Festival): boolean {
   return festival.date.month > 0 && festival.date.day > 0;
 }
 
+// Cache resolved festival dates: "festivalId-year" -> SolarDate | null
+const resolvedDateCache = new Map<string, SolarDate | null>();
+
 /**
  * Resolve a festival to a solar date for a given year.
  * For lunar festivals, the year parameter is the lunar year.
@@ -38,10 +41,16 @@ function resolveFestivalDate(festival: Festival, year: number): SolarDate | null
   if (!isResolvable(festival)) {
     return null;
   }
-  return getFestivalSolarDate(year, {
+  const key = `${festival.id}-${year}`;
+  if (resolvedDateCache.has(key)) {
+    return resolvedDateCache.get(key)!;
+  }
+  const result = getFestivalSolarDate(year, {
     calendarType: festival.calendarType,
     date: festival.date,
   });
+  resolvedDateCache.set(key, result);
+  return result;
 }
 
 /**
