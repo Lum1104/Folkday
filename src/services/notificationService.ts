@@ -31,7 +31,7 @@ export function configureNotifications() {
       },
       permissions: { alert: true, badge: true, sound: true },
       popInitialNotification: true,
-      requestPermissions: true,
+      requestPermissions: Platform.OS === 'ios',
     });
 
     PushNotification.createChannel(
