@@ -12,5 +12,14 @@ export default defineConfig({
         '@shared': path.resolve(import.meta.dirname, '..', 'src'),
       },
     },
+    esbuild: {
+      tsconfigRaw: {
+        compilerOptions: {
+          jsx: 'react-jsx',
+          resolveJsonModule: true,
+          esModuleInterop: true,
+        },
+      },
+    },
   },
 });
